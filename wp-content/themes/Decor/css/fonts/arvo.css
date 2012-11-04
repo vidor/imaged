@@ -1,0 +1,112 @@
+
+h1,h2,h3,h4,h5,h6 {
+
+text-transform:none;
+
+}
+
+
+h1 {
+font-size:30px;
+letter-spacing:-1px;
+}
+
+h2 {
+font-size: 26px;
+}
+h3 {
+font-size:20px;
+}
+h4 {
+font-size:18px;
+}
+h5 {
+font-size:16px;
+}
+h6 {
+font-size:14px;
+}
+
+
+
+.entry_item h2 {
+
+font-size:30px;
+letter-spacing:-1px;
+
+}
+
+#nav > li > a {
+
+font-size:17px;
+text-transform:none;
+
+
+}
+
+#nav .sub-menu a {
+
+
+font-size:15px;
+text-transform:none;
+
+
+
+}
+
+#cboxTitle{
+
+font-size:30px;
+letter-spacing:-1px;
+text-transform:none;
+
+
+}
+
+.dropcap{
+
+font-size:30px;
+
+}
+
+.entry_item .blog_date{
+
+font-size:20px;
+
+}
+
+.entry_item .blog_date span{
+
+font-size:34px;
+
+}
+
+#pagination_wrap a{
+
+font-size:16px;
+
+}
+
+#entry_list li#first_entry h2{
+
+
+font-size:30px;
+letter-spacing:-1px;
+
+
+}
+
+#subfooter_wrap #footer_nav li a{
+
+font-size:13px;
+
+
+
+}
+
+#subfooter_wrap #copyright{
+
+font-size:13px;
+
+
+}

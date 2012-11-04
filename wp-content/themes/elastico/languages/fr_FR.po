@@ -1,0 +1,1449 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Elastico\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-03 21:24+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: SpadeInvaders\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:5
+msgid "Page Not Found"
+msgstr "Page Introuvable"
+
+#: 404.php:10
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Désolé, mais la page que vous cherchez n'existe pas."
+
+#: archive.php:10
+msgid "All posts in"
+msgstr "Tous les articles dans "
+
+#: archive.php:12
+msgid "All posts tagged"
+msgstr "Tous les articles tagués"
+
+#: archive.php:14
+#: archive.php:16
+#: archive.php:18
+msgid "Archives for"
+msgstr "Archives pour"
+
+#: archive.php:20
+msgid "All posts by"
+msgstr "Tous les articles par"
+
+#: archive.php:22
+msgid "Blog Archives"
+msgstr "Archives du Blog"
+
+#: archive.php:27
+msgid "Posts"
+msgstr "Articles"
+
+#: archive.php:28
+msgid "Post"
+msgstr "Article"
+
+#: archive.php:51
+#: index.php:11
+#: search.php:25
+msgid "Load More"
+msgstr "Voir Plus"
+
+#: archive.php:59
+#: index.php:18
+#: search.php:33
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Articles Anciens"
+
+#: archive.php:60
+#: index.php:19
+#: search.php:34
+msgid "Newer Entries &raquo;"
+msgstr "Articles Récents &raquo;"
+
+#: comments.php:16
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Cet article est protégé par mot de passe. Saisissez le mot de passe pour voir les commentaires."
+
+#: comments.php:30
+msgid "No Comments"
+msgstr "Pas de commentaire"
+
+#: comments.php:30
+msgid "1 Comment"
+msgstr "1 Commentaire"
+
+#: comments.php:30
+msgid "% Comments"
+msgstr "% Commentaires"
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: comments.php:59
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Vous devez être<a href=\"%s\">connecté</a> pour rédiger un commentaire."
+
+#: comments.php:60
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr "Connecté en tant que <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Déconnexion\">Déconnexion &raquo;</a>"
+
+#: comments.php:63
+msgid "Leave a Comment"
+msgstr "Laisser un Commentaire"
+
+#: comments.php:64
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Répondre à %s"
+
+#: comments.php:65
+msgid "Cancel Reply"
+msgstr "Annuler Réponse"
+
+#: comments.php:66
+msgid "Submit Comment"
+msgstr "Soumettre Commentaire"
+
+#: footer.php:10
+msgid "open"
+msgstr "ouvrir"
+
+#: functions.php:26
+msgid "Primary Menu"
+msgstr "Menu Principal"
+
+#: functions.php:134
+msgid "This gallery is protected. To view it, enter the password below:"
+msgstr "Cette galerie est privée. Pour la voir, entrez le mot de passe ci-dessous:"
+
+#: functions.php:435
+#: functions.php:620
+#: sidebar.php:34
+#: sidebar.php:84
+msgid "yes"
+msgstr "oui"
+
+#: functions.php:598
+#: functions.php:628
+msgid "Sorry that seems to be an invalid YouTube URL."
+msgstr "Desolé il semble que ce soit une URL Youtube invalide."
+
+#: functions.php:606
+#: functions.php:636
+msgid "Sorry that seems to be an invalid Vimeo URL."
+msgstr "Desolé il semble que ce soit une URL Vimeo invalide."
+
+#: functions.php:610
+#: functions.php:640
+msgid "Sorry that seems to be an invalid YouTube or Vimeo URL."
+msgstr "Désolé il semble que ceci n'est ni une URL Youtube ou Vimeo valide."
+
+#: functions.php:818
+msgid "Pingback:"
+msgstr "Rétrolien:"
+
+#: functions.php:818
+#: functions.php:839
+msgid "[Edit]"
+msgstr "[Editer]"
+
+#: functions.php:836
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#: functions.php:838
+msgid "Reply"
+msgstr "Répondre"
+
+#: functions.php:842
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération"
+
+#: header.php:105
+msgid "Navigate to..."
+msgstr "Aller à ..."
+
+#: options.php:31
+msgid "Select a page:"
+msgstr "Sélectionner une page:"
+
+#: options.php:41
+msgid "General Settings"
+msgstr "Paramètres Généraux"
+
+#: options.php:45
+msgid "Custom Logo"
+msgstr "Votre Logo"
+
+#: options.php:46
+msgid "Upload your logo or specify the image address of your online logo. (http://example.com/logo.png)"
+msgstr "Télécharger un logo pour votre thème, ou spécifier l'adresse de votre logo. (http://example.com/logo.png)"
+
+#: options.php:51
+msgid "Custom Favicon"
+msgstr "Votre Favicon"
+
+#: options.php:52
+msgid "Upload a 16px x 16px Png/Gif image that will represent your website's favicon."
+msgstr "Télécharger une image Png/Gif, 16px x 16px, qui sera le favicon de votre site."
+
+#: options.php:56
+msgid "Tracking Code"
+msgstr "Tracking Code"
+
+#: options.php:57
+msgid "Paste your Google Analytics (or other) tracking code here. It will be inserted before the closing body tag of your theme."
+msgstr "Entrer votre code Google Analytics. Il sera inséré avant la balise fermante body."
+
+#: options.php:62
+msgid "Enable/disable right click (for image protection)"
+msgstr "Activer/désactiver click droit (pour protéger les images)"
+
+#: options.php:63
+msgid "Check this to disable the right click."
+msgstr "Cocher la case pour désactiver le click droit."
+
+#: options.php:68
+msgid "Styling Options"
+msgstr "Options de Style"
+
+#: options.php:72
+msgid "Link Color"
+msgstr "Couleur des liens"
+
+#: options.php:73
+msgid "Select the link hover color."
+msgstr "Sélectionner la couleur de survol des liens"
+
+#: options.php:78
+msgid "Custom CSS"
+msgstr "Personnaliser CSS"
+
+#: options.php:79
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr "Ajouter facilement du CSS à votre thème en l'ajoutant dans ce bloc."
+
+#: options.php:84
+msgid "Blog Settings"
+msgstr "Paramètres du Blog"
+
+#: options.php:87
+msgid "Read More Link"
+msgstr "Lien Continuer à lire"
+
+#: options.php:88
+msgid "If you want to display a \"Read More\" link enter the link text here"
+msgstr "Si vous souhaitez afficher un lien de type \"Continuer la lecture\" entrer le texte du lien ici"
+
+#: options.php:93
+msgid "Portfolio Settings"
+msgstr "Paramètres du Portfolio"
+
+#: options.php:96
+msgid "Portfolio Page"
+msgstr "Page Portfolio "
+
+#: options.php:97
+msgid "Select the portfolio page. Used for highlighting the portfolio menu when viewing a single portfolio item and for the \"Back to portfolio\" link."
+msgstr "Sélectionner la page du portfolio."
+
+#: options.php:103
+msgid "Portfolio Meta"
+msgstr "Meta-informations du Portfolio"
+
+#: options.php:104
+msgid "Select what information to display for each portfolio item on the portfolio page just under their title."
+msgstr "Choisir quelle information afficher sous le titre pour chaque élément du portfolio."
+
+#: options.php:110
+msgid "Enable Portfolio Filter"
+msgstr "Activer le Filtre du Portfolio"
+
+#: options.php:111
+msgid "Check this to display the portfolio items filter."
+msgstr "Cocher la case pour activer le filtre du portfolio."
+
+#: options.php:116
+msgid "Portfolio Ajax Load"
+msgstr "Portfolio Chargement Ajax "
+
+#: options.php:117
+#: options.php:155
+msgid "Choose if you wish to use a Load More button."
+msgstr "Choisir si vous voulez utilise un bouton \"Load More\""
+
+#: options.php:123
+msgid "Number of portfolios per loading"
+msgstr "Nombre de portfolios affichés à chaque chargement"
+
+#: options.php:124
+msgid "Enter the amount of portfolios items you wish to show per loading."
+msgstr "Entrer le nombre de portfolios à afficher à chaque chargement."
+
+#: options.php:131
+msgid "Gallery Settings"
+msgstr "Paramètre de la Galerie"
+
+#: options.php:134
+msgid "Gallery Page"
+msgstr "Page Galerie"
+
+#: options.php:135
+msgid "Select the gallery page. Used for highlighting the gallery menu when viewing a single gallery item."
+msgstr "Sélectionner la page de la liste des galeries."
+
+#: options.php:141
+msgid "Gallery Meta"
+msgstr "Galerie Meta"
+
+#: options.php:142
+msgid "Select what information to display for each gallery item on the gallery listing page just under their title."
+msgstr "Choisir quelle information afficher sous le titre pour chaque galerie."
+
+#: options.php:148
+msgid "Enable Gallery Filter"
+msgstr "Activer le Filtre pour les galeries"
+
+#: options.php:149
+msgid "Check this to display the gallery items filter."
+msgstr "Cocher la case pour activer le filtre des galeries"
+
+#: options.php:154
+msgid "Gallery Ajax Load"
+msgstr "Gallerie Chargement Ajax"
+
+#: options.php:161
+msgid "Number of galleries per loading"
+msgstr "Nombre de galeries par chargement"
+
+#: options.php:162
+msgid "Enter the amount of gallery items you wish to show per loading"
+msgstr "Entrer le nombre de galeries à afficher à chaque chargement."
+
+#: options.php:168
+msgid "Contact Infos"
+msgstr "Infos de Contact"
+
+#: options.php:171
+msgid "Address"
+msgstr "Adresse"
+
+#: options.php:172
+msgid "Add your address here."
+msgstr "Ajouter votre adresse."
+
+#: options.php:177
+msgid "Phone number"
+msgstr "Numéro de téléphone"
+
+#: options.php:178
+msgid "Add your phone number here."
+msgstr "Ajouter votre numéro de téléphone."
+
+#: options.php:183
+msgid "Fax number"
+msgstr "Numéro de Fax"
+
+#: options.php:184
+msgid "Add your fax number here."
+msgstr "Ajouter votre numéro de Fax."
+
+#: options.php:189
+msgid "Email Address"
+msgstr "Adresse Email"
+
+#: options.php:190
+msgid "Add your email address here."
+msgstr "Ajouter votre adresse email."
+
+#: options.php:195
+msgid "Additional Infos"
+msgstr "Infos Supplémentaires"
+
+#: options.php:196
+msgid "If you have other infos to enter, type them here."
+msgstr "Si vous avez d'autres informations à afficher, entrez les ici."
+
+#: options.php:201
+msgid "Google Map Settings"
+msgstr "Paramètres Google Map"
+
+#: options.php:205
+msgid "Google Map Latitude"
+msgstr "Google Map Latitude"
+
+#: options.php:206
+msgid "Enter the Latitude"
+msgstr "Entrer la latitude"
+
+#: options.php:211
+msgid "Google Map Longitude"
+msgstr "Google Map Longitude"
+
+#: options.php:212
+msgid "Enter the Longitude"
+msgstr "Entrer la longitude"
+
+#: options.php:217
+msgid "Google Map Zoom"
+msgstr "Google Map Zoom"
+
+#: options.php:218
+msgid "Enter the Zoom"
+msgstr "Entrer la valeur du zoom"
+
+#: options.php:223
+msgid "Google Map Type"
+msgstr "Google Map Type"
+
+#: options.php:224
+msgid "Select the type of the map"
+msgstr "Sélectionner le type de carte"
+
+#: options.php:230
+msgid "Google Map Custom Marker Icon"
+msgstr "Google Map Icone Personnalisée"
+
+#: options.php:231
+msgid "Upload your custom Marker Icon"
+msgstr "Télécharger votre icone personnalisée"
+
+#: options.php:235
+msgid "Google Map Custom Icon Size"
+msgstr "Google Map - Taille de l'icone personnalisée"
+
+#: options.php:236
+msgid "Enter your Custom Icon Size: e.g. 32, 37"
+msgstr "Entrer la taille de l'icone personnalisée: e.g. 32, 37"
+
+#: options.php:241
+msgid "Google Map Custom Icon Anchor"
+msgstr "Google Map Ancre de l'Icone"
+
+#: options.php:242
+msgid "Enter the coordinates of your Icon Anchor: e.g 16, 37"
+msgstr "Entrer les coordoonées de l'ancre de votre icone: e.G 16, 37"
+
+#: options.php:247
+msgid "Map Replacement by an Image"
+msgstr "Remplacer la carte par une image"
+
+#: options.php:248
+msgid "If you want to display an image instead of the map, upload it here."
+msgstr "Si vous souhaitez afficher une image à la place de la carte, télécharger votre image ici."
+
+#: options.php:253
+msgid "Sidebar Settings"
+msgstr "Paramètres de la Sidebar"
+
+#: options.php:256
+msgid "Enable Slideout Widgets Panel"
+msgstr "Activer le Panel Coulissant"
+
+#: options.php:257
+msgid "Check this to enable the slideout panel where you can add widgets."
+msgstr "Cocher la case pour activer le panel coulissant où vous pouvez ajouter des widgets."
+
+#: options.php:262
+msgid "Copyright"
+msgstr "Copyright"
+
+#: options.php:263
+msgid "Enter some text to display at the bottom of the sidebar."
+msgstr "Entrer le texte qui apparait dans le bas gauche de la sidebar."
+
+#: options.php:268
+msgid "Social Settings"
+msgstr "Paramètres des Réseaux Sociaux"
+
+#: options.php:271
+msgid "Facebook"
+msgstr "Facebook"
+
+#: options.php:272
+msgid "Add your Facebook URL here."
+msgstr "Ajouter votre URL Facebook."
+
+#: options.php:277
+msgid "Twitter"
+msgstr "Twitter"
+
+#: options.php:278
+msgid "Add your Twitter URL here."
+msgstr "Ajouter votre URL Twitter."
+
+#: options.php:283
+msgid "Google +"
+msgstr "Google +"
+
+#: options.php:284
+msgid "Add your Google + URL here."
+msgstr "Ajouter votre URL Google +."
+
+#: options.php:289
+msgid "Flickr"
+msgstr "Flickr"
+
+#: options.php:290
+msgid "Add your Flickr URL here."
+msgstr "Ajouter votre URL Flickr."
+
+#: options.php:295
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: options.php:296
+msgid "Add your LinkedIn URL here."
+msgstr "Ajouter votre URL LinkedIn."
+
+#: options.php:301
+msgid "Behance"
+msgstr "Behance"
+
+#: options.php:302
+msgid "Add your Behance URL here."
+msgstr "Ajouter votre URL Behance."
+
+#: options.php:307
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: options.php:308
+msgid "Add your Pinterest URL here."
+msgstr "Ajouter votre URL Pinterest."
+
+#: options.php:313
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: options.php:314
+msgid "Add your Dribbble URL here."
+msgstr "Ajouter votre URL Dribbble."
+
+#: options.php:319
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: options.php:320
+msgid "Add your Vimeo URL here."
+msgstr "Ajouter votre URL Vimeo."
+
+#: options.php:325
+msgid "Youtube"
+msgstr "Youtube"
+
+#: options.php:326
+msgid "Add your Youtube URL here."
+msgstr "Ajouter votre URL Youtube."
+
+#: options.php:331
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: options.php:332
+msgid "Add your Tumblr URL here."
+msgstr "Ajouter votre URL Tumbr."
+
+#: options.php:337
+msgid "Instagram"
+msgstr "Instagram"
+
+#: options.php:338
+msgid "Add your Instagram URL here."
+msgstr "Ajouter votre URL Instagram."
+
+#: options.php:343
+msgid "RSS"
+msgstr "RSS"
+
+#: options.php:344
+msgid "Add your RSS URL here."
+msgstr "Ajouter votre URL RSS."
+
+#: page.php:11
+msgid "Pages:"
+msgstr "Pages:"
+
+#: search.php:9
+#, php-format
+msgid "Search Results for %s"
+msgstr "Résultats de la recherche pour %s"
+
+#: search.php:12
+msgid "Results Found"
+msgstr "Résultats Trouvés"
+
+#: search.php:13
+msgid "Result Found"
+msgstr "Résultat Trouvé"
+
+#: searchform.php:3
+msgid "Type your search"
+msgstr "Entrer votre recherche"
+
+#: sidebar.php:5
+#: sidebar.php:36
+#: sidebar.php:56
+#: sidebar.php:86
+msgid "Filter"
+msgstr "Filtre"
+
+#: sidebar.php:10
+#: sidebar.php:41
+#: sidebar.php:61
+#: sidebar.php:91
+msgid "All"
+msgstr "Tous"
+
+#: single-portfolio.php:176
+#: single-portfolio.php:252
+msgid "Update Required"
+msgstr "Mise à jour Nécessaire"
+
+#: single-portfolio.php:177
+#: single-portfolio.php:253
+msgid "To play the media you will need to either update your browser to a recent version or update your Flash plugin."
+msgstr "Pour visualiser la vidéo vous devez soit mettre à jour votre navigateur ou votre plugin Flash."
+
+#: single-portfolio.php:280
+msgid "Date"
+msgstr "Date"
+
+#: single-portfolio.php:281
+msgid "Client"
+msgstr "Client"
+
+#: single-portfolio.php:285
+msgid "Skills"
+msgstr "Compétences"
+
+#: single-portfolio.php:296
+msgid "Website"
+msgstr "Site Internet"
+
+#: single-portfolio.php:302
+msgid "Back"
+msgstr "Retour"
+
+#: single-portfolio.php:306
+msgid "Previous"
+msgstr "Précédent"
+
+#: single-portfolio.php:310
+msgid "Next"
+msgstr "Suivant"
+
+#: template-contact.php:76
+msgid "Contact Info"
+msgstr "Infos de Contact"
+
+#: template-contact.php:82
+msgid "Phone"
+msgstr "Téléphone"
+
+#: template-contact.php:85
+msgid "Fax"
+msgstr "Fax"
+
+#: template-contact.php:88
+msgid "Email"
+msgstr "Email"
+
+#: admin/options-framework.php:170
+#: admin/options-framework.php:226
+#: admin/options-framework.php:369
+msgid "Theme Options"
+msgstr "Options du Thème"
+
+#: admin/options-framework.php:243
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Cliquer OK pour réinitialiser. Tous les paramètres du thème seront perdus!"
+
+#: admin/options-framework.php:275
+msgid "Default options restored."
+msgstr "Options par défaut restaurées."
+
+#: admin/options-framework.php:318
+msgid "Options saved."
+msgstr "Options sauvegardées."
+
+#: admin/options-medialibrary-uploader.php:26
+msgid "Theme Options Media"
+msgstr "Theme Options Media"
+
+#: admin/options-medialibrary-uploader.php:129
+msgid "Upload"
+msgstr "Télécharger"
+
+#: admin/options-medialibrary-uploader.php:152
+msgid "View File"
+msgstr "Voir Fichier"
+
+#: admin/options-medialibrary-uploader.php:289
+#: functions/post-type-gallery.php:12
+msgid "Gallery"
+msgstr "Galerie"
+
+#: admin/options-medialibrary-uploader.php:289
+msgid "Previously Uploaded"
+msgstr "Téléchargé Auparavant"
+
+#: functions/gallery-meta.php:22
+msgid "Gallery Type"
+msgstr "Type de Galerie"
+
+#: functions/gallery-meta.php:23
+msgid "Choose which type of gallery you want to display"
+msgstr "Choisir le type de la galerie"
+
+#: functions/gallery-meta.php:29
+#: functions/page-meta.php:79
+#: functions/page-meta.php:140
+#: functions/portfolio-meta.php:62
+#: functions/post-meta.php:48
+msgid "Uploads/Manage Images"
+msgstr "Télécharger/Gérer Images"
+
+#: functions/gallery-meta.php:30
+#: functions/page-meta.php:80
+#: functions/page-meta.php:141
+#: functions/portfolio-meta.php:63
+#: functions/post-meta.php:49
+msgid "Here's the list of the images"
+msgstr "Voici la liste des images"
+
+#: functions/gallery-meta.php:40
+msgid "Fullscreen Gallery Settings"
+msgstr "Paramètres Fullscreen Galerie"
+
+#: functions/gallery-meta.php:45
+#: functions/page-meta.php:133
+msgid "Autoplay Slideshow"
+msgstr "Slideshow Autoplay"
+
+#: functions/gallery-meta.php:46
+#: functions/page-meta.php:134
+msgid "Choose whether you wish to autoplay the slideshow"
+msgstr "Choisir si vous voulez autoplay le slideshow"
+
+#: functions/gallery-meta.php:49
+#: functions/gallery-meta.php:50
+#: functions/gallery-meta.php:57
+#: functions/gallery-meta.php:80
+#: functions/page-meta.php:31
+#: functions/page-meta.php:32
+#: functions/page-meta.php:53
+#: functions/page-meta.php:54
+#: functions/page-meta.php:77
+#: functions/page-meta.php:104
+#: functions/page-meta.php:105
+#: functions/page-meta.php:138
+#: functions/post-meta.php:27
+#: functions/post-meta.php:46
+msgid "no"
+msgstr "non"
+
+#: functions/gallery-meta.php:52
+msgid "Slide Title"
+msgstr "Titre du slide"
+
+#: functions/gallery-meta.php:53
+msgid "Choose whether to show the title on each slide"
+msgstr "Choisir si vous voulez afficher le titre sur chaque slide"
+
+#: functions/gallery-meta.php:64
+msgid "Infinite Scroll Gallery Settings"
+msgstr "Paramètres pour Galerie Infinite Scroll"
+
+#: functions/gallery-meta.php:69
+#: functions/page-meta.php:66
+msgid "Number of Images"
+msgstr "Nombre d'images"
+
+#: functions/gallery-meta.php:70
+#: functions/page-meta.php:67
+msgid "Enter the number of images to display per loading"
+msgstr "Entrer le nombre d'images à afficher à chaque chargement."
+
+#: functions/gallery-meta.php:75
+#: functions/page-meta.php:72
+msgid "Photos Title"
+msgstr "Titre des Photos"
+
+#: functions/gallery-meta.php:76
+#: functions/page-meta.php:73
+msgid "Choose whether to show a title when the lightbox opens"
+msgstr "Choisir si vous voulez afficher le titre des images quand la lightbox s'ouvre."
+
+#: functions/gallery-meta.php:88
+msgid "Gallery Custom URL"
+msgstr "Galerie URL personnalisée"
+
+#: functions/gallery-meta.php:94
+#: functions/portfolio-meta.php:183
+msgid "Custom URL"
+msgstr "URL personnalisée"
+
+#: functions/gallery-meta.php:95
+msgid "If you want to link the gallery item to a custom url, enter the url here"
+msgstr "Si vous souhaitez pointer votre galerie vers une url personnalisée, entrer la ici."
+
+#: functions/gallery-meta.php:126
+msgid "Select the type of gallery you want to display. Set a featured image (400px x 225px) that will be used as the gallery thumbnail."
+msgstr "Sélectionner le type de galerie. Définir une image à la une (400x x 225px) qui sera utilisée pour la miniature de la galerie."
+
+#: functions/gallery-meta.php:172
+#: functions/page-meta.php:341
+#: functions/page-meta.php:419
+#: functions/portfolio-meta.php:297
+#: functions/post-meta.php:301
+msgid "Upload Images"
+msgstr "Télécharger Images"
+
+#: functions/gallery-meta.php:172
+#: functions/page-meta.php:341
+#: functions/page-meta.php:419
+#: functions/portfolio-meta.php:297
+#: functions/post-meta.php:301
+msgid "Manage Images"
+msgstr "Gérer Images"
+
+#: functions/gallery-meta.php:180
+#: functions/meta-functions.php:23
+#: functions/page-meta.php:349
+#: functions/page-meta.php:427
+#: functions/portfolio-meta.php:305
+#: functions/post-meta.php:309
+msgid "No images."
+msgstr "Pas d'image."
+
+#: functions/meta-functions.php:55
+msgid "Video Link URL"
+msgstr "URL du lien Vidéo"
+
+#: functions/meta-functions.php:58
+msgid "Enter the url of a youtube or vimeo video that will open in the lightbox"
+msgstr "Entrer l'url d'une vidéo Youtube ou Vimeo qui s'ouvrira dans la lightbox"
+
+#: functions/meta-functions.php:65
+msgid "Image Size %"
+msgstr "Dimensions de l'image %"
+
+#: functions/meta-functions.php:68
+msgid "Enter the percentage that you want to apply to the image (from 1 to 100)"
+msgstr "Entrer le pourcentage que vous vouler appliquer à l'image (1 à 100)"
+
+#: functions/meta-functions.php:87
+msgid "Exclude from slider"
+msgstr "Exclure du slider"
+
+#: functions/meta-functions.php:100
+msgid "Fill the above title & caption inputs and set the parameters below."
+msgstr "Remplir les inputs Title & Caption ci-dessus et configurer les paramètres ci-dessous."
+
+#: functions/meta-functions.php:121
+msgid "Display a caption on the slide"
+msgstr "Afficher une caption sur le slide"
+
+#: functions/meta-functions.php:144
+msgid "Include the title on the slide's caption"
+msgstr "Inclure le titre sur la caption"
+
+#: functions/meta-functions.php:167
+msgid "Caption Color"
+msgstr "Couleur de la caption"
+
+#: functions/meta-functions.php:190
+msgid "Caption Background"
+msgstr "Couleur de Fond "
+
+#: functions/meta-functions.php:213
+msgid "Caption Y Position"
+msgstr "Caption Position Y"
+
+#: functions/meta-functions.php:236
+msgid "Caption X Position"
+msgstr "Caption Position X"
+
+#: functions/meta-functions.php:243
+msgid "Link Button Text"
+msgstr "Texte du bouton lien"
+
+#: functions/meta-functions.php:246
+msgid "Enter the text for the button"
+msgstr "Entrer le texte du bouton"
+
+#: functions/meta-functions.php:251
+msgid "Link Button URL"
+msgstr "URL du bouton lien"
+
+#: functions/meta-functions.php:254
+msgid "Enter the url for the button"
+msgstr "Entrer l'url du bouton"
+
+#: functions/page-meta.php:22
+#: functions/post-types.php:42
+msgid "Portfolio Categories"
+msgstr "Portfolio Catégories"
+
+#: functions/page-meta.php:23
+msgid "Select which categories you want to include on this portfolio page"
+msgstr "Choisir quelles catégories vous voulez inclure dans cette page"
+
+#: functions/page-meta.php:27
+msgid "Portfolio Filter"
+msgstr "Filtre du Portfolio"
+
+#: functions/page-meta.php:28
+#: functions/page-meta.php:50
+msgid "Choose whether you wish to display a filter"
+msgstr "Choisir si vous voulez affichez un filtre"
+
+#: functions/page-meta.php:44
+#: functions/post-type-gallery.php:42
+msgid "Gallery Categories"
+msgstr "Galerie Catégories"
+
+#: functions/page-meta.php:45
+msgid "Select which categories you want to include on this gallery page"
+msgstr "Select which categories you want to include on this portfolio page"
+
+#: functions/page-meta.php:49
+msgid "Gallery Filter"
+msgstr "Filtre Galerie"
+
+#: functions/page-meta.php:89
+#: functions/portfolio-meta.php:73
+#: functions/post-meta.php:58
+msgid "Video Settings"
+msgstr "Paramètres Vidéo"
+
+#: functions/page-meta.php:94
+#: functions/portfolio-meta.php:103
+#: functions/post-meta.php:88
+msgid "Youtube or Vimeo URL"
+msgstr "URL Youtube ou Vimeo "
+
+#: functions/page-meta.php:95
+#: functions/portfolio-meta.php:104
+#: functions/post-meta.php:89
+msgid "Enter the Youtube or Vimeo URL here. <br/> http://www.youtube.com/watch?v=VIDEO_ID <br/>or<br/> http://vimeo.com/VIDEO_ID"
+msgstr "Entrer l'URL Youtube ou Vimeo. <br/> http://www.youtube.com/watch?v=VIDEO_ID <br/>ou<br/> http://vimeo.com/VIDEO_ID"
+
+#: functions/page-meta.php:100
+msgid "Video autoplay"
+msgstr "Video autoplay"
+
+#: functions/page-meta.php:101
+msgid "Choose whether you wish to autoplay the video"
+msgstr "Choisir si vous voulez autoplay la vidéo"
+
+#: functions/page-meta.php:112
+msgid "Background Settings"
+msgstr "Paramètre de l'arrière plan"
+
+#: functions/page-meta.php:117
+msgid "Background Image"
+msgstr "Image de Fond"
+
+#: functions/page-meta.php:118
+msgid "Upload a custom background image for this page"
+msgstr "Télécharger une image de fond "
+
+#: functions/page-meta.php:128
+msgid "Slider Settings"
+msgstr "Paramètres du Slider"
+
+#: functions/page-meta.php:510
+#: functions/portfolio-meta.php:378
+#: functions/portfolio-meta.php:435
+#: functions/post-meta.php:380
+#: functions/post-meta.php:424
+msgid "Browse"
+msgstr "Parcourir"
+
+#: functions/portfolio-meta.php:24
+msgid "Portfolio Client"
+msgstr "Client"
+
+#: functions/portfolio-meta.php:25
+msgid "Enter the client's name"
+msgstr "Entrer le nom du client"
+
+#: functions/portfolio-meta.php:31
+msgid "Portfolio Date"
+msgstr "Date du projet"
+
+#: functions/portfolio-meta.php:32
+msgid "Enter the date of the project achievement"
+msgstr "Entrer la date de réalisation du projet"
+
+#: functions/portfolio-meta.php:38
+msgid "Portfolio URL"
+msgstr "URL du projet"
+
+#: functions/portfolio-meta.php:39
+msgid "Enter the url of the project"
+msgstr "Entrer l'url du projet"
+
+#: functions/portfolio-meta.php:45
+msgid "Portfolio Type"
+msgstr "Type de Projet"
+
+#: functions/portfolio-meta.php:46
+msgid "Select the portfolio's type"
+msgstr "Choisir le type de Portfolio."
+
+#: functions/portfolio-meta.php:49
+msgid "Images"
+msgstr "Images"
+
+#: functions/portfolio-meta.php:57
+msgid "Images Settings"
+msgstr "Paramètres des Images"
+
+#: functions/portfolio-meta.php:78
+#: functions/post-meta.php:63
+msgid "Self Hosted Video:"
+msgstr "Video Hébergée"
+
+#: functions/portfolio-meta.php:81
+#: functions/post-meta.php:66
+msgid "M4V File URL"
+msgstr "URL du fichier M4V"
+
+#: functions/portfolio-meta.php:82
+#: functions/post-meta.php:67
+msgid "Enter the URL of the .m4v video file"
+msgstr "Entrer l'URL du fichier .m4v"
+
+#: functions/portfolio-meta.php:87
+#: functions/post-meta.php:72
+msgid "OGV File URL"
+msgstr "URL du fichier OGV"
+
+#: functions/portfolio-meta.php:88
+#: functions/post-meta.php:73
+msgid "Enter the URL of the .ogv video file"
+msgstr "Entrer l'URL du fichier .ogv"
+
+#: functions/portfolio-meta.php:93
+#: functions/portfolio-meta.php:159
+#: functions/post-meta.php:78
+#: functions/post-meta.php:142
+msgid "Poster Image"
+msgstr "Image d'aperçu"
+
+#: functions/portfolio-meta.php:94
+#: functions/post-meta.php:79
+msgid "Upload the preview image for the video"
+msgstr "Télécharger l'aperçu de la vidéo"
+
+#: functions/portfolio-meta.php:99
+#: functions/post-meta.php:84
+msgid "Video sharing website:"
+msgstr "Site de partage de vidéos:"
+
+#: functions/portfolio-meta.php:110
+#: functions/portfolio-meta.php:166
+#: functions/post-meta.php:95
+#: functions/post-meta.php:149
+msgid "Embed Code"
+msgstr "Code d'Intégration"
+
+#: functions/portfolio-meta.php:111
+msgid "If you are using other video sharing website, paste the embed code here."
+msgstr "Si vous voulez afficher une vidéo autre que hébergée, Youtube et Vimeo, coller le code d'intégration ici."
+
+#: functions/portfolio-meta.php:116
+#: functions/post-meta.php:101
+msgid "Aspect Ratio (default 16:9):"
+msgstr "Aspect Ratio (par défaut 16:9):"
+
+#: functions/portfolio-meta.php:120
+#: functions/post-meta.php:105
+msgid "Video Width"
+msgstr "Largeur Vidéo"
+
+#: functions/portfolio-meta.php:121
+#: functions/post-meta.php:106
+msgid "Enter the video's width"
+msgstr "Entrer la largeur de la vidéo"
+
+#: functions/portfolio-meta.php:127
+#: functions/post-meta.php:112
+msgid "Video Height"
+msgstr "Hauteur Vidéo"
+
+#: functions/portfolio-meta.php:128
+#: functions/post-meta.php:113
+msgid "Enter the video's height"
+msgstr "Entrer la hauteur de la vidéo"
+
+#: functions/portfolio-meta.php:140
+#: functions/post-meta.php:123
+msgid "Audio Settings"
+msgstr "Paramètres Audio"
+
+#: functions/portfolio-meta.php:146
+#: functions/post-meta.php:129
+msgid "MP3 File URL"
+msgstr "URL du fichier MP3"
+
+#: functions/portfolio-meta.php:147
+#: functions/post-meta.php:130
+msgid "Enter the URL of the .mp3 audio file"
+msgstr "Entrer l'URL du fichier .mp3"
+
+#: functions/portfolio-meta.php:153
+#: functions/post-meta.php:136
+msgid "OGA File URL"
+msgstr "URL du fichier OGA"
+
+#: functions/portfolio-meta.php:154
+#: functions/post-meta.php:137
+msgid "Enter the URL of the .oga or .ogg audio file"
+msgstr "Entrer l'URL du fichier .oga ou .ogg"
+
+#: functions/portfolio-meta.php:160
+#: functions/post-meta.php:143
+msgid "Upload the poster image for the track"
+msgstr "Télécharger l'image pour la piste audio. "
+
+#: functions/portfolio-meta.php:167
+#: functions/post-meta.php:150
+msgid "If you are using an audio sharing service like SoundCloud, paste the embed code here"
+msgstr "Si vous voulez utiliser un service de partage audio e.g. SoundCloud, coller le code d'intégration ici."
+
+#: functions/portfolio-meta.php:177
+msgid "Portfolio Custom URL"
+msgstr "Portfolio URL Personnalisée"
+
+#: functions/portfolio-meta.php:184
+msgid "If you want to link the portfolio item to a custom url, enter the url here"
+msgstr "Si vous souhaitez pointer le portfolio vers une URL personnalisée, entrer l'URL ici"
+
+#: functions/portfolio-meta.php:218
+msgid "Fill in the project details and select the type of portfolio. Set a featured image (400px x 225px) that will be used as the portfolio thumbnail."
+msgstr "Remplir les détails du projet et sélectionner le type de portfolio. Définir une image à la une (400x x 225px) qui sera utilisée pour la miniature du project."
+
+#: functions/portfolio-meta.php:266
+msgid "These settings enable you to manage the images displayed in the portfolio. Upload your images and use \"Manage Images\" to edit, reorder and delete images."
+msgstr "Ces paramètres vous permettent d'ajouter des images dans le portfolio et de les gérer."
+
+#: functions/portfolio-meta.php:330
+msgid "These settings enable you to add video to your portfolio. You have the choice between Self Hosted Video, Youtube, Vimeo or any other Video Sharing Websites."
+msgstr "Ces paramètres permettent d'ajouter de la vidéo au portfolio. "
+
+#: functions/portfolio-meta.php:395
+msgid "These settings enable you to add audio to your portfolio."
+msgstr "Ces paramètres permettent d'ajouter de l'audio au portfolio."
+
+#: functions/post-meta.php:17
+msgid "Image Settings"
+msgstr "Paramètres de l'Image"
+
+#: functions/post-meta.php:22
+#: functions/post-meta.php:41
+msgid "Enable Lightbox"
+msgstr "Activer la Lightbox"
+
+#: functions/post-meta.php:23
+#: functions/post-meta.php:42
+msgid "Choose whether you wish to enable the lightbox on the single post"
+msgstr "Choisir si vous voulez utiliser la lightbox"
+
+#: functions/post-meta.php:96
+msgid "If you are using other video sharing website, paste the embed code here"
+msgstr "Si vous voulez afficher une vidéo autre que hébergée, Youtube et Vimeo, coller le code d'intégration ici."
+
+#: functions/post-meta.php:160
+msgid "Quote Settings"
+msgstr "Paramètres de la Citation"
+
+#: functions/post-meta.php:165
+msgid "The Quote"
+msgstr "La Citation"
+
+#: functions/post-meta.php:166
+msgid "Insert your quote"
+msgstr "Entrer votre citation"
+
+#: functions/post-meta.php:171
+msgid "The Quote Source"
+msgstr "Source de la Citation"
+
+#: functions/post-meta.php:172
+msgid "Insert the source of your quote"
+msgstr "Entrer la source de votre citation"
+
+#: functions/post-meta.php:182
+msgid "Link Settings"
+msgstr "Paramètres du Lien"
+
+#: functions/post-meta.php:187
+msgid "The URL"
+msgstr "L'URL"
+
+#: functions/post-meta.php:188
+msgid "Insert the URL you wish to link to"
+msgstr "Entrer l'URL vers laquelle le lien pointe"
+
+#: functions/post-meta.php:224
+msgid "Set a Featured Image, then choose if you want to enable the lightbox."
+msgstr " Définir une image à la une, et choisir si vous vouler activer la lightbox."
+
+#: functions/post-meta.php:331
+msgid "These settings enable you to add video to your post. You have the choice between Self Hosted Video, Youtube or Vimeo, or any other Video Sharing Websites."
+msgstr "Ces paramètres vous permettent d'ajouter de la vidéo à votre article. "
+
+#: functions/post-meta.php:395
+msgid "These settings enable you to add audio to your post."
+msgstr "Ces paramètres vous permettent d'ajouter de l'audio à votre article."
+
+#: functions/post-type-gallery.php:11
+msgid "Galleries"
+msgstr "Galeries"
+
+#: functions/post-type-gallery.php:13
+#: functions/post-types.php:13
+msgid "Add New"
+msgstr "Ajouter un Nouveau"
+
+#: functions/post-type-gallery.php:14
+msgid "Add New Gallery"
+msgstr "Ajouter Nouvelle Galerie"
+
+#: functions/post-type-gallery.php:15
+msgid "Edit Gallery"
+msgstr "Editer Galerie"
+
+#: functions/post-type-gallery.php:16
+msgid "New Gallery"
+msgstr "Nouvelle Galerie"
+
+#: functions/post-type-gallery.php:17
+msgid "View Gallery"
+msgstr "Voir Galerie"
+
+#: functions/post-type-gallery.php:18
+msgid "Search Gallery"
+msgstr "Chercher Galerie"
+
+#: functions/post-type-gallery.php:19
+msgid "No gallery found"
+msgstr "Aucune galerie trouvée"
+
+#: functions/post-type-gallery.php:20
+msgid "No gallery found in Trash"
+msgstr "Aucune galerie trouvée dans la corbeille"
+
+#: functions/post-type-gallery.php:42
+msgid "Gallery Category"
+msgstr "Galerie Catégorie"
+
+#: functions/post-type-gallery.php:51
+#: functions/post-types.php:51
+msgid "Title"
+msgstr "Titre"
+
+#: functions/post-type-gallery.php:52
+#: functions/post-types.php:52
+msgid "Thumbnail"
+msgstr "Miniature"
+
+#: functions/post-type-gallery.php:53
+#: functions/post-types.php:53
+msgid "Categories"
+msgstr "Catégories"
+
+#: functions/post-types.php:11
+msgid "Portfolios"
+msgstr "Portfolios"
+
+#: functions/post-types.php:12
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: functions/post-types.php:14
+msgid "Add New Portfolio"
+msgstr "Ajouter un Nouveau Portfolio"
+
+#: functions/post-types.php:15
+msgid "Edit Portfolio"
+msgstr "Editer Portfolio"
+
+#: functions/post-types.php:16
+msgid "New Portfolio"
+msgstr "Nouveau Portfolio"
+
+#: functions/post-types.php:17
+msgid "View Portfolio"
+msgstr "Voir Porfolio"
+
+#: functions/post-types.php:18
+msgid "Search Portfolio"
+msgstr "Rechercher Portfolio"
+
+#: functions/post-types.php:19
+msgid "No portfolio found"
+msgstr "Aucun portfolio trouvé"
+
+#: functions/post-types.php:20
+msgid "No portfolio found in Trash"
+msgstr "Aucun portfolio trouvé dans la corbeille."
+
+#: functions/post-types.php:42
+msgid "Portfolio Category"
+msgstr "Portfolio Catégorie"
+
+#: functions/widget-flickr.php:12
+msgid "Use this custom widget to display your Flickr Photostream"
+msgstr "Utiliser ce widget personnalisé pour afficher vos photos Flickr."
+
+#: functions/widget-flickr.php:15
+msgid "Custom Flickr Photostream"
+msgstr "Photos Flickr "
+
+#: functions/widget-flickr.php:72
+msgid "Flickr Photostream"
+msgstr "Flux de Photos Flickr "
+
+#: functions/widget-flickr.php:82
+#: functions/widget-twitter.php:89
+msgid "Title:"
+msgstr "Titre:"
+
+#: functions/widget-flickr.php:87
+msgid "Flickr ID:"
+msgstr "Flickr ID:"
+
+#: functions/widget-flickr.php:92
+msgid "Number of Photos:"
+msgstr "Nombre de Photos:"
+
+#: functions/widget-flickr.php:101
+msgid "Type (user or group):"
+msgstr "Type (utilisateur ou groupe):"
+
+#: functions/widget-flickr.php:109
+msgid "Display Mode (latest or random):"
+msgstr "Affichage (dernières photos ou aléatoire):"
+
+#: functions/widget-twitter.php:14
+msgid "Use this custom widget to display your latest tweets"
+msgstr "Utiliser ce widget personnalisé pour afficher vos derniers tweets."
+
+#: functions/widget-twitter.php:17
+msgid "Custom Twitter Feed"
+msgstr "Flux Twitter"
+
+#: functions/widget-twitter.php:94
+msgid "Twitter username:"
+msgstr "Nom d'utilisateur Twitter:"
+
+#: functions/widget-twitter.php:99
+msgid "Number of tweets:"
+msgstr "Nombre de tweets:"
+
+#: functions/widget-twitter.php:104
+msgid "Follow Text e.g. Follow on Twitter:"
+msgstr "Texte de suivi e.g. Suivez nous sur Twitter:"
+
+#: functions/tinymce/window.php:7
+msgid "You are not allowed to be here"
+msgstr "Vous n'avez pas l'autorisation pour être ici."
+
+#: functions/tinymce/window.php:34
+msgid "Select Shortcode"
+msgstr "Choisir Shortcode"
+
+#: includes/postformats/audio.php:82
+#: includes/postformats/gallery.php:34
+#: includes/postformats/image.php:9
+#: includes/postformats/standard.php:9
+#: includes/postformats/video.php:110
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Permalien vers %s"
+
+#: includes/postformats/single/gallery.php:43
+#: includes/postformats/single/image.php:7
+msgid "fullscreen"
+msgstr "plein écran"
+
+#: includes/postformats/single/post-meta.php:4
+msgid "Author"
+msgstr "Auteur"
+
+#: includes/postformats/single/post-meta.php:5
+msgid "Comments"
+msgstr "Commentaires"
+
+#: includes/postformats/single/post-meta.php:7
+msgid "<strong>Tags:</strong> "
+msgstr "<strong>Tags:</strong> "
+
+#: includes/postformats/single/post-meta.php:8
+msgid "Edit"
+msgstr "Editer"
+
+#~ msgid "Audio"
+#~ msgstr "Audio"
+#~ msgid "Trackbacks for this post"
+#~ msgstr "Rétroliens sur cet article"
+#~ msgid "Comments are now closed for this article."
+#~ msgstr "Les commentaires sont fermés pour cet article."
+#~ msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
+#~ msgstr "Connecté en tant que  %1$s. %2$s Déconnecter &raquo;%3$s"
+#~ msgid "Log out of this account"
+#~ msgstr "Déconnexion"
+#~ msgid "Name"
+#~ msgstr "Nom"
+#~ msgid "Comment"
+#~ msgstr "Commentaire"
+#~ msgid "Enable Lightbox on Single Post"
+#~ msgstr "Activer la lightbox sur le post"
+#~ msgid "Portfolio Item Title"
+#~ msgstr "Titre du Portfolio"
+#~ msgid "Google Map Popup"
+#~ msgstr "Google Map Popup"
+#~ msgid "Youtube, Vimeo or other video services:"
+#~ msgstr "Youtube, Vimeo ou autre service:"
+#~ msgid "Fill in the project details and select the type of portfolio."
+#~ msgstr "Remplir les détails du projet et sélectionner le type de portfolio."
+#~ msgid "None"
+#~ msgstr "Aucun"
+#~ msgid "Password:"
+#~ msgstr "Mot de Passe:"
+#~ msgid "Contact Details"
+#~ msgstr "Détails pour vous contacter"
+#~ msgid "Options Framework Internal Container"
+#~ msgstr "Options Framework Internal Container"
+#~ msgid "These settings enable you to add video to your post."
+#~ msgstr ""
+#~ "Ces paramètres vous permettent d'ajouter de la vidéo à votre article."
+#~ msgid "Youtube or Vimeo :"
+#~ msgstr "Youtube ou Vimeo "
+#~ msgid "Manage Gallery"
+#~ msgstr "Gérer Galerie"
+#~ msgid "Here's the list of the images."
+#~ msgstr "Voici la liste des images."
+#~ msgid "Here's the list of your images."
+#~ msgstr "Voici la liste des images."
+#~ msgid "Google Map Popup Window Html"
+#~ msgstr "Google Map Zoom"
+

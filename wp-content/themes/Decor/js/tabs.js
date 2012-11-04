@@ -1,0 +1,1 @@
+jQuery(document).ready(function(b){var a=b("ul.tabs");a.each(function(c){var d=b(this).find("a");d.click(function(g){var f=b(this).attr("href");if(f.charAt(0)=="#"){g.preventDefault();b(this).parent().siblings("li").children("a").removeClass("active");b(this).addClass("active");b(f).show().addClass("active").siblings().hide().removeClass("active")}})})});

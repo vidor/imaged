@@ -1,0 +1,12 @@
+.media-item .describe .si-caption-show th ,
+.media-item .describe .si-title-show th,
+.media-item .describe .si-caption-color th ,
+.media-item .describe .si-caption-bgcolor th,
+.media-item .describe .si-caption-xpos th ,
+.media-item .describe .si-caption-ypos th,
+.media-item .describe .si-slider-exclude th
+{padding-top: 0;}
+
+.media-item .describe .si-caption-btn-url p.help{padding-bottom:25px !important;}
+.media-item .describe .si-caption-parameters{}
+.media-item .describe .si-caption-parameters td {padding:20px 0 20px 0;font-weight:bold;text-decoration:underline;}

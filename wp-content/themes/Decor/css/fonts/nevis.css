@@ -1,0 +1,99 @@
+h1,h2,h3,h4,h5,h6 {
+
+text-transform:uppercase;
+
+}
+
+
+h1 {
+font-size:40px;
+letter-spacing:-2px;
+}
+
+h2 {
+font-size: 30px;
+}
+h3 {
+font-size:18px;
+}
+h4 {
+font-size:18px;
+}
+h5 {
+font-size:16px;
+}
+h6 {
+font-size:14px;
+
+}
+
+
+
+.entry_item h2 {
+
+font-size:24px;
+
+}
+
+#nav > li > a {
+
+font-size:13px;
+text-transform:uppercase;
+
+
+}
+
+#nav .sub-menu a {
+
+
+font-size:11px;
+text-transform:uppercase;
+
+
+}
+
+#cboxTitle{
+
+font-size:28px;
+text-transform:uppercase;
+
+
+}
+
+.dropcap{
+
+font-size:18px;
+
+}
+
+.entry_item .blog_date{
+
+font-size:14px;
+
+}
+
+.entry_item .blog_date span{
+
+font-size:26px;
+
+}
+
+#pagination_wrap a{
+
+font-size:14px;
+
+}
+
+#subfooter_wrap #footer_nav li a{
+
+font-size:10px;
+text-transform:uppercase;
+
+}
+
+#subfooter_wrap #copyright{
+
+font-size:10px;
+text-transform:uppercase;
+
+}

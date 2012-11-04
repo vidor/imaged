@@ -1,0 +1,194 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: Decor/loop.php:22
+#: Decor/loop-portfolio.php:19
+#: Decor/single.php:17
+#: Decor/single-portfolio.php:24
+msgid " people like this"
+msgstr ""
+
+#. Text in function
+#: Decor/framework/widgets/related.php:66
+#: Decor/framework/widgets/recent.php:56
+#: Decor/loop.php:37
+#: Decor/single.php:29
+#: Decor/framework/widgets/popular.php:53
+msgid "% comments"
+msgstr ""
+
+#. Text in function
+#: Decor/comments.php:101
+msgid "%1$s"
+msgstr ""
+
+#. Text in function
+#: Decor/comments.php:101
+msgid "%1$s %2$s"
+msgstr ""
+
+#. Text in function
+#: Decor/comments.php:40
+msgid "&larr; Older Comments"
+msgstr ""
+
+#. Text in function
+#: Decor/comments.php:118
+msgid "- reply"
+msgstr ""
+
+#. Text in function
+#: Decor/framework/widgets/related.php:66
+#: Decor/framework/widgets/recent.php:56
+#: Decor/loop.php:37
+#: Decor/single.php:29
+#: Decor/framework/widgets/popular.php:53
+msgid "0 comments"
+msgstr ""
+
+#. Text in function
+#: Decor/framework/widgets/related.php:66
+#: Decor/framework/widgets/recent.php:56
+#: Decor/loop.php:37
+#: Decor/single.php:29
+#: Decor/framework/widgets/popular.php:53
+msgid "1 comment"
+msgstr ""
+
+#. Text in function
+#: Decor/framework/global/theme_functions.php:425
+msgid "404 - Not Found"
+msgstr ""
+
+#. Text in function
+#: Decor/framework/global/theme_functions.php:425
+msgid "Archives: "
+msgstr ""
+
+#. Text in function
+#: Decor/framework/global/theme_functions.php:425
+msgid "Author Archives:"
+msgstr ""
+
+#. Text in echo
+#: Decor/comments.php:53
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in echo
+#: Decor/loop.php:39
+#: Decor/loop-portfolio.php:34
+msgid "Continue reading &rarr;"
+msgstr ""
+
+#. Text in function
+#: Decor/comments.php:77
+#: Decor/comments.php:116
+msgid "Edit"
+msgstr ""
+
+#. Text in function
+#: Decor/page.php:31
+#: Decor/single.php:41
+msgid "Edit this Post"
+msgstr ""
+
+#. Text in function
+#: Decor/framework/global/pagination.php:1
+msgid "NEXT"
+msgstr ""
+
+#. Text in function
+#: Decor/comments.php:41
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#. Text in function
+#: Decor/framework/global/pagination.php:1
+msgid "PREV"
+msgstr ""
+
+#. Text in echo
+#: Decor/comments.php:77
+msgid "Pingback:"
+msgstr ""
+
+#. Text in echo
+#: Decor/searchform.php:3
+#: Decor/searchform.php:4
+msgid "Search"
+msgstr ""
+
+#. Text in function
+#: Decor/framework/global/theme_functions.php:425
+msgid "Search results"
+msgstr ""
+
+#. Text in echo
+#: Decor/header.php:44
+msgid "Search..."
+msgstr ""
+
+#. Text in function
+#: Decor/framework/global/theme_functions.php:425
+msgid "Tag Archives: "
+msgstr ""
+
+#. Text in echo
+#: Decor/comments.php:17
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#. Text in echo
+#: Decor/comments.php:123
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in function
+#: Decor/framework/shortcodes/contactform.php:1
+msgid "Your message was successfully sent!"
+msgstr ""
+
+#. Text in function
+#: Decor/loop.php:22
+#: Decor/loop-portfolio.php:19
+#: Decor/single.php:17
+#: Decor/single-portfolio.php:24
+msgid "be the first to like this"
+msgstr ""
+
+#. Text in echo
+#: Decor/header.php:48
+msgid "close"
+msgstr ""
+
+#. Text in function
+#: Decor/framework/shortcodes/contactform.php:1
+msgid "email *"
+msgstr ""
+
+#. Text in echo
+#: Decor/header.php:47
+msgid "enter"
+msgstr ""
+
+#. Text in echo
+#: Decor/footer.php:25
+msgid "follow us on"
+msgstr ""
+
+#. Text in function
+#: Decor/framework/shortcodes/contactform.php:1
+msgid "name *"
+msgstr ""
+
+#. Text in function
+#: Decor/loop.php:22
+#: Decor/loop-portfolio.php:19
+#: Decor/single.php:17
+#: Decor/single-portfolio.php:24
+msgid "one person likes this"
+msgstr ""
