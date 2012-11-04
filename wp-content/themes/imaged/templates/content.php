@@ -8,16 +8,33 @@
 
 <?php while (have_posts()) : the_post(); ?>
   <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <header>
-      <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-      <?php get_template_part('templates/entry-meta'); ?>
-    </header>
+  <!-- meta -->
+  	<div class="entry-meta">
+  		 <p class="entry-month"><?php echo get_the_date('m'); ?></p>
+  		 <p>/</p>
+  		 <p class="entry-day"><?php echo get_the_date('d'); ?></p>
+  		 <p class="entry-year"><?php echo get_the_date('Y'); ?></p>
+  		 <p class="entry-comment-number"><?php comments_number( '0', '1', '%' ); ?></p>
+  	</div>
+  	
+  <!-- thumbnail -->
+  	<div class="entry-thumbnail">
+	<?php if (has_post_thumbnail())  { ?>			
+		<?php the_post_thumbnail(array('title' => '')); ?>
+	<?php } ?>
+  	</div>
+  	
+  <!-- content -->
     <div class="entry-content">
-      <?php the_excerpt(); ?>
+  	    <header>
+	      <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+	    </header>
+	      <?php the_excerpt(); ?>
+	    <footer>
+	      <?php the_tags('<ul class="entry-tags"><li>','</li><li>','</li></ul>'); ?>
+	    </footer>
     </div>
-    <footer>
-      <?php the_tags('<ul class="entry-tags"><li>','</li><li>','</li></ul>'); ?>
-    </footer>
+    
   </article>
 <?php endwhile; ?>
 
