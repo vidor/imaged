@@ -19,12 +19,16 @@ a:hover {
    ========================================================================== */
 
 #banner { }
-	.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
-	-webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
-	-moz-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
-	box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+	-webkit-box-shadow: 0 1px 10px rgba(0,0,0);
+	-moz-box-shadow: 0 1px 10px rgba(0,0,0,0);
+	box-shadow: 0 1px 10px rgba(0,0,0,0);
 	background: white;
 
+}
+
+.navbar-inner {
+	filter: 0;
 }
 /* Fixed Topbar Navigation */
 body.top-navbar { padding-top: 60px; }
@@ -151,3 +155,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     padding-top: 0;
   }
 }
+
+/* ==========================================================================
+   IE
+   ========================================================================== */
+   .lt-ie9 .container, .lt-ie9 #main{
+   	width: 1000px;
+   }
