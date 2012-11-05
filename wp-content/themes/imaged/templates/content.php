@@ -11,7 +11,7 @@
   <!-- meta -->
   	<div class="entry-meta">
   		 <p class="entry-month"><?php echo get_the_date('m'); ?></p>
-  		 <p>/</p>
+  		 <p>·</p>
   		 <p class="entry-day"><?php echo get_the_date('d'); ?></p>
   		 <p class="entry-year"><?php echo get_the_date('Y'); ?></p>
   		 <p class="entry-comment-number"><?php comments_number( '0', '1', '%' ); ?></p>
@@ -30,7 +30,7 @@
 	      <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 	    </header>
 	      <?php the_excerpt(); ?>
-	    <footer>
+	    <footer class="entry-footer">
 	      <?php the_tags('<ul class="entry-tags"><li>','</li><li>','</li></ul>'); ?>
 	    </footer>
     </div>
