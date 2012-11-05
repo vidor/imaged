@@ -215,8 +215,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 	}
 
 	body.home .page-header {display: none;}
-
 	#banner a.brand {float: none; width: 72px; margin: 0 auto;}
+	.navbar .nav  li  a {text-align: center;}
 	article.post .entry-thumbnail {float: none;}
 	article.post h2 {font-size: 20px; line-height: 20px;}
 	article.post .entry-thumbnail {float: none;}
