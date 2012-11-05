@@ -23,6 +23,7 @@ a:hover {
 #banner a.brand {
 	text-indent: -1000px;
 	background: url(../img/logo.jpg) no-repeat;
+	background-size: 72px 40px;
 	margin: 0;
 }
 
@@ -95,7 +96,7 @@ article.post .entry-meta p.entry-year {
 }
 
 article.post .entry-meta p.entry-comment-number {
-	background: url(../img/comment.jpg);
+	background: url(../img/comment.jpg) no-repeat;
 	height: 60px;
 	width: 60px;
 	line-height: 60px;
@@ -215,11 +216,11 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 	article.post .entry-thumbnail {float: none;}
 
-	article.post .entry-meta {float: none; height: 60px; width: 100%; line-height: 60px; padding:0px;}
-	article.post .entry-meta p {float: left; margin: 0;}
+	article.post .entry-meta {float: none; height: 30px; width: 100%; line-height: 30px; padding:0px;}
+	article.post .entry-meta p {float: left; margin: 0; font-size: 15px;}
 	article.post .entry-meta p.entry-month {padding-left: 15px;}
-	article.post .entry-meta p.entry-year {font-size: 30px; padding: 0; font-weight: normal;padding-left: 20px; color: #777;}
-	article.post .entry-meta p.entry-comment-number {top: 0; right: 0;}
+	article.post .entry-meta p.entry-year {font-size: 15px; padding: 0; font-weight: normal;padding-left: 20px; color: #777;}
+	article.post .entry-meta p.entry-comment-number {line-height: 30px; padding-left: 25px;font-size: 15px; top: 0; right: 0; background-size: 30px 30px; height: 30px; width: 30px;}
 	article.post .entry-content {float: none; padding-top: 20px;}
 	article.post .entry-footer {position: relative; overflow: hidden; }
 	article.post .entry-footer ul.entry-tags {overflow: hidden;border-top: 1px solid #ddd;}
