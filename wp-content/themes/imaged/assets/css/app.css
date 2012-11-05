@@ -159,6 +159,11 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* ==========================================================================
    IE
    ========================================================================== */
-   .lt-ie9 .container, .lt-ie9 #main{
-   	width: 1000px;
-   }
+.lt-ie9 .container, .lt-ie9 #main{width: 1000px;}
+.lt-ie7 body.top-navbar { padding-top: 0px;}
+.lt-ie7 .alert { margin: 0;}
+.lt-ie7 ul.nav { float: right;}
+.lt-ie7 ul.nav li { float: left; line-height: 40px; padding-left: 20px; }
+.lt-ie7 .post {height: 400px;}
+.lt-ie7 .post .entry-thumbnail { width: 600px; height: 400;}
+.lt-ie7 .post .entry-index {background: white;}
