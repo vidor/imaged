@@ -22,7 +22,7 @@ a:hover {
 
 #banner a.brand {
 	text-indent: -1000px;
-	background: url(../img/logo.jpg) no-repeat;
+	background: url(../img/logo.jpg) no-repeat center center;
 	background-size: 72px 40px;
 	margin: 0;
 }
