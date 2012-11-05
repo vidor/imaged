@@ -214,6 +214,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 		width: 600px;
 	}
 
+	body.home .page-header {display: none;}
+
 	#banner a.brand {float: none; width: 72px; margin: 0 auto;}
 	article.post .entry-thumbnail {float: none;}
 	article.post h2 {font-size: 20px; line-height: 20px;}
