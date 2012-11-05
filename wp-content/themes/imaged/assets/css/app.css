@@ -214,8 +214,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 		width: 600px;
 	}
 
+	#banner a.brand {float: none; width: 72px; margin: 0 auto;}
 	article.post .entry-thumbnail {float: none;}
-
+	article.post h2 {font-size: 20px; line-height: 20px;}
+	article.post .entry-thumbnail {float: none;}
 	article.post .entry-meta {float: none; height: 30px; width: 100%; line-height: 30px; padding:0px;}
 	article.post .entry-meta p {float: left; margin: 0; font-size: 15px;}
 	article.post .entry-meta p.entry-month {padding-left: 15px;}
@@ -224,6 +226,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 	article.post .entry-content {float: none; padding-top: 20px;}
 	article.post .entry-footer {position: relative; overflow: hidden; }
 	article.post .entry-footer ul.entry-tags {overflow: hidden;border-top: 1px solid #ddd;}
+
 }
 
 @media (max-width: 640px) {
