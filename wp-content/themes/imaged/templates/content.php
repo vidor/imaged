@@ -20,7 +20,7 @@
   <!-- thumbnail -->
   	<div class="entry-thumbnail">
 	<?php if (has_post_thumbnail())  { ?>			
-		<?php the_post_thumbnail(array('title' => '')); ?>
+		<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(array('title' => '')); ?></a>
 	<?php } ?>
   	</div>
   	

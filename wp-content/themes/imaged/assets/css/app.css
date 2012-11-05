@@ -77,6 +77,8 @@ article.post h2 {
 	margin: 0 0 30px 0;
 }
 
+article.post h2 a {display: block;}
+
 article.post .entry-meta {
 	float: left;
 	width: 60px;
