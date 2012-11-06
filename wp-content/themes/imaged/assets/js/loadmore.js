@@ -7,6 +7,7 @@ jQuery(document).ready(function() {
 	var loader = jQuery('#posts-count').attr('data-loader');
 
 	if (offset < totalPosts) {
+		$('#load-more').show();
 		loadMoreInit();
 	}
 
@@ -39,7 +40,7 @@ jQuery(document).ready(function() {
 							loadMore.bind("click", loadMoreInit());
 					}
 					else{
-							$('#load-more').fadeOut();
+							$('#load-more').hide();
 					}							
 
 			}
