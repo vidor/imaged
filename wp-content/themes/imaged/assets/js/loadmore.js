@@ -29,11 +29,13 @@ jQuery(document).ready(function() {
 				nonce : ajax.nonce,
 				offset: offset
 			},
-            success: function(data){		
+            success: function(data){
+            		
 				var $newEls = jQuery(data);
+				var scrollToId = $($(data)[0]).attr('id');
 				$('#load-more').before($newEls);
-	
-					offset = offset + posts_per_page;
+				$("html, body").stop().animate({ scrollTop: $('#' + scrollToId).offset().top  - 90}, 1000, 'easeOutExpo');
+					offset = offset + posts_per_page;	
 					loadMore.removeClass('active');
 					if (offset < totalPosts){
 							jQuery('#posts-count').text(offset+'/'+totalPosts);

@@ -2,8 +2,6 @@
 
 // Custom functions
 function imaged_ajax_loadmore(){
-
-	echo "fuck";
    
 	$posts_per_page  = get_option('posts_per_page');
 	$nonce = $_POST['nonce'];	

@@ -1,6 +1,4 @@
 <?php while (have_posts()) : the_post(); ?>
-  
-
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <!-- meta -->
   	<div class="entry-meta">
@@ -28,7 +26,5 @@
 	      <?php the_tags('<ul class="entry-tags"><li>','</li><li>','</li></ul>'); ?>
 	    </footer>
     </div>
-    
-  </article>
-
+</article>
   <?php endwhile; ?>

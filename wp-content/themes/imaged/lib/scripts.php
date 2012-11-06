@@ -39,15 +39,15 @@ function roots_scripts() {
 
   wp_register_script('roots_plugins', get_template_directory_uri() . '/assets/js/plugins.js', false, null, false);
   wp_register_script('roots_main', get_template_directory_uri() . '/assets/js/main.js', false, null, false);
+  
+  wp_enqueue_script('roots_plugins');
+  wp_enqueue_script('roots_main');
   //add script snippt to home
   if( is_home()) {
     wp_localize_script('roots_main', 'ajax', array('ajaxurl'=>admin_url('admin-ajax.php'),'nonce' => wp_create_nonce('ajax-nonce')));
     wp_register_script('loadmore', get_template_directory_uri() . '/assets/js/loadmore.js', false, null, false);
     wp_enqueue_script('loadmore');
-  }
-  
-  wp_enqueue_script('roots_plugins');
-  wp_enqueue_script('roots_main');
+  }  
 }
 
 add_action('wp_enqueue_scripts', 'roots_scripts', 100);
