@@ -20,7 +20,7 @@
   <!-- thumbnail -->
   	<div class="entry-thumbnail">
 	<?php if (has_post_thumbnail())  { ?>			
-		<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(array('title' => "", 'alt' => "")); ?></a>
+		<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail("post-thumbnail", array('title' => '', 'alt' => '')); ?></a>
 	<?php } ?>
   	</div>
   	
@@ -38,9 +38,20 @@
   </article>
 <?php endwhile; ?>
 
-<?php if ($wp_query->max_num_pages > 1) : ?>
+<?php $total_posts = $wp_query->found_posts; ?>
+<div id="load-more">                
+            <a data-total-posts="<?php echo $total_posts ; ?>" data-perpage="<?php echo get_option('posts_per_page');?>">
+                  <span id="load-btn-icon"></span><?php _e('加载更多', 'si_theme'); ?>  
+                    <span id="posts-count" data-loader="<?php echo get_template_directory_uri(); ?>/images/ajax-loader.gif">
+                            <?php echo get_option('posts_per_page').'/'. $total_posts; ?>
+                    </span>                            
+            </a>
+</div>
+
+<?php /* if ($wp_query->max_num_pages > 1) : ?>
   <nav id="post-nav" class="pager">
     <div class="previous"><?php next_posts_link(__('&larr; Older posts', 'roots')); ?></div>
     <div class="next"><?php previous_posts_link(__('Newer posts &rarr;', 'roots')); ?></div>
   </nav>
-<?php endif; ?>
+<?php endif; */ ?>
+
