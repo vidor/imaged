@@ -1,11 +1,20 @@
 <?php
 
 // Custom functions
-
-function imaged_enqueue_scripts() {
-	wp_localize_script('imaged', 'ajax', array('ajaxurl'=>admin_url('admin-ajax.php'),'nonce' => wp_create_nonce('ajax-nonce')));
-	echo "Hello";
+function imaged_ajax_loadmore(){
+   
+	$posts_per_page  = get_option('posts_per_page');
+	$nonce = $_POST['nonce'];	
+	$offset = $_POST['offset'];	
+	
+	if ( ! wp_verify_nonce( $nonce, 'ajax-nonce' ) )
+        die ( 'Forbidden!');		
+		
+	$args= array('posts_per_page'=> $posts_per_page ,'offset' => $offset, 'post_status' => 'publish');
+	query_posts($args);			
+	get_template_part('templates/loop');
+  
+    exit;
 }
 
-add_action('wp_enqueue_scripts', 'imaged_enqueue_scripts');
-
+add_action('wp_ajax_imaged_ajax_loadmore', 'imaged_ajax_loadmore'); 

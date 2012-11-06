@@ -195,25 +195,17 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 	.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container, #main {
 		width: 1000px;
 	}
-	article.post div.entry-content #load-more{
-		width: 300px;
-	}
+
+	article.post div.entry-content {width: 300px;}
 
 }
 
 
 @media (min-width: 980px) {
-	.navbar .nav {
-		float: right;
-		margin: 0;
-	}
-
-	.navbar .nav  li  a {
-		color: black;
-		padding: 10px 0 10px 20px;
-	}
-
+	.navbar .nav {float: right;margin: 0;}
+	.navbar .nav  li  a {color: black;padding: 10px 0 10px 20px;}
 	article.post .entry-content {width: 240px;}
+	#banner a.brand {margin-left: -20px;}
 
 }
 

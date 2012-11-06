@@ -6,43 +6,15 @@
   <?php get_search_form(); ?>
 <?php endif; ?>
 
-<?php while (have_posts()) : the_post(); ?>
-  <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-  <!-- meta -->
-  	<div class="entry-meta">
-  		 <p class="entry-month"><?php echo get_the_date('m'); ?></p>
-  		 <p>·</p>
-  		 <p class="entry-day"><?php echo get_the_date('d'); ?></p>
-  		 <p class="entry-year"><?php echo get_the_date('Y'); ?></p>
-  		 <p class="entry-comment-number"><?php comments_number( '0', '1', '%' ); ?></p>
-  	</div>
-  	
-  <!-- thumbnail -->
-  	<div class="entry-thumbnail">
-	<?php if (has_post_thumbnail())  { ?>			
-		<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail("post-thumbnail", array('title' => '', 'alt' => '')); ?></a>
-	<?php } ?>
-  	</div>
-  	
-  <!-- content -->
-    <div class="entry-content">
-  	    <header>
-	      <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-	    </header>
-	      <?php the_excerpt(); ?>
-	    <footer class="entry-footer">
-	      <?php the_tags('<ul class="entry-tags"><li>','</li><li>','</li></ul>'); ?>
-	    </footer>
-    </div>
-    
-  </article>
-<?php endwhile; ?>
+
+<?php get_template_part('templates/loop');?>
+
 
 <?php $total_posts = $wp_query->found_posts; ?>
 <div id="load-more">                
             <a data-total-posts="<?php echo $total_posts ; ?>" data-perpage="<?php echo get_option('posts_per_page');?>">
                   <span id="load-btn-icon"></span><?php _e('加载更多', 'si_theme'); ?>  
-                    <span id="posts-count" data-loader="<?php echo get_template_directory_uri(); ?>/images/ajax-loader.gif">
+                    <span id="posts-count" data-loader="<?php echo get_template_directory_uri(); ?>/assets/img/ajax-loader.gif">
                             <?php echo get_option('posts_per_page').'/'. $total_posts; ?>
                     </span>                            
             </a>
