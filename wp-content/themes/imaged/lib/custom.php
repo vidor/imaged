@@ -2,6 +2,8 @@
 
 // Custom functions
 function imaged_ajax_loadmore(){
+
+	echo "fuck";
    
 	$posts_per_page  = get_option('posts_per_page');
 	$nonce = $_POST['nonce'];	
@@ -18,3 +20,4 @@ function imaged_ajax_loadmore(){
 }
 
 add_action('wp_ajax_imaged_ajax_loadmore', 'imaged_ajax_loadmore'); 
+add_action('wp_ajax_nopriv_imaged_ajax_loadmore', 'imaged_ajax_loadmore');  

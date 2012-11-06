@@ -29,7 +29,7 @@ jQuery(document).ready(function() {
 				nonce : ajax.nonce,
 				offset: offset
 			},
-            success: function(data){					
+            success: function(data){		
 				var $newEls = jQuery(data);
 				$('#load-more').before($newEls);
 	
@@ -44,6 +44,8 @@ jQuery(document).ready(function() {
 					}							
 
 			}
-		});		
+		});	
+
+		return false;	
 	}
 });
