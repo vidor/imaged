@@ -35,7 +35,7 @@ jQuery(document).ready(function() {
 				var scrollToId = $($(data)[0]).attr('id');
 				$('#load-more').before($newEls);
 				var topOffset = 90;
-				if($(document).width() < 980) topOffset = 50; 
+				if($(document).width() < 980) topOffset = 20; 
 				$("html, body").stop().animate({ scrollTop: $('#' + scrollToId).offset().top  - topOffset}, 1000, 'easeOutExpo');
 					offset = offset + posts_per_page;	
 					loadMore.removeClass('active');
