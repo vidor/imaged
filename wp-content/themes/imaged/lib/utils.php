@@ -19,6 +19,7 @@ class Roots_Wrapping {
   static $base;
 
   static function wrap($template) {
+    
     self::$main_template = $template;
 
     self::$base = substr(basename(self::$main_template), 0, -4);
@@ -32,7 +33,6 @@ class Roots_Wrapping {
     if (self::$base) {
       array_unshift($templates, sprintf('base-%s.php', self::$base ));
     }
-
     return locate_template($templates);
   }
 }
