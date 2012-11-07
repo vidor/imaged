@@ -293,13 +293,13 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    ========================================================================= */
  .ds-thread {
  	background: white;
- 	padding: 20px;
+ 	padding: 5px 20px 20px 20px;
  	margin-bottom: 50px;
 	-webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.07);
 	-moz-box-shadow:    0 0 2px 2px rgba(0,0,0,0.07);
 	box-shadow:         0 0 2px 2px rgba(0,0,0,0.07);	
  }
-.ds-powered-by, .ds-sort {display: none; }
+.ds-powered-by, .ds-sort, .ds-login-buttons {display: none; }
 .ds-meta, .ds-comments-tabs {text-align: center;}
 
 
