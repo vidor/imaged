@@ -42,6 +42,8 @@ a:hover {
 body.top-navbar { padding-top: 60px; }
 body.admin-bar .navbar-fixed-top { top: 28px; }
 
+.navbar .btn-navbar {margin-right: 0;}
+
 .navbar .brand {
 	color: black;
 }
@@ -290,6 +292,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 	.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container, #main {
 		width: 100%;
 	}
+
+	.navbar .btn-navbar {margin-right: 15px;}
 }
 
 /* ==========================================================================
