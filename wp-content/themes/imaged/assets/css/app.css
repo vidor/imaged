@@ -278,7 +278,11 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 	.home article.post .entry-content {float: none; padding-top: 20px;}
 	article.post .entry-footer {position: relative; overflow: hidden; }
 	article.post .entry-footer ul.entry-tags {overflow: hidden;border-top: 1px solid #ddd;}
-
+	/*duoshuo*/
+	#ds-thread #ds-reset .ds-post-self:hover a.ds-post-report,
+	#ds-thread #ds-reset .ds-post-self:hover a.ds-post-delete {
+		display: none;
+	}
 
 }
 
