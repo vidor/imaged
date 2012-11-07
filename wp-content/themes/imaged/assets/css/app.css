@@ -62,7 +62,7 @@ body.admin-bar .navbar-fixed-top { top: 28px; }
    ========================================================================== */
 
 #main {}
-article.post {
+.home article.post {
 	background: white;
 	margin-bottom: 50px;
 	-webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.07);
@@ -112,8 +112,11 @@ article.post .entry-thumbnail {
 	float: left;
 }
 
-article.post .entry-content {
+.home article.post .entry-content {
 	float: right;
+}
+
+article.post .entry-content {
 	padding: 20px;
 	padding-top: 15px;
 }
@@ -155,7 +158,38 @@ article.post .entry-tags li {
 #sidebar { }
 
 
+/* ==========================================================================
+   single post
+   ========================================================================== */
+.single article .entry-header {
+	background: white;
+	margin-bottom: 50px;
+	-webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.07);
+	-moz-box-shadow:    0 0 2px 2px rgba(0,0,0,0.07);
+	box-shadow:         0 0 2px 2px rgba(0,0,0,0.07);	
+	overflow-y: hidden;
+	position: relative;
+}
+.single article h1 {
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+}
 
+.single .entry-image {
+	background: white;
+	margin-bottom: 50px;
+	-webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.07);
+	-moz-box-shadow:    0 0 2px 2px rgba(0,0,0,0.07);
+	box-shadow:         0 0 2px 2px rgba(0,0,0,0.07);	
+	overflow-y: hidden;
+	position: relative;
+}
+
+.single .entry-image p {
+	padding: 10px 20px;
+	margin: 0;
+}
 /* ==========================================================================
    Posts
    ========================================================================== */
@@ -203,17 +237,20 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 		width: 1000px;
 	}
 
-	article.post div.entry-content {width: 300px;}
+	.home article.post div.entry-content {width: 300px;}
 
 }
 
-
-@media (min-width: 980px) {
-	.navbar .nav {float: right;margin: 0;}
+@media screen and (min-width: 980px) {
+	.navbar .nav {float: right; margin: 0;}
 	.navbar .nav  li  a {color: black;padding: 10px 0 10px 20px;}
-	article.post .entry-content {width: 240px;}
+	.home article.post .entry-content {width: 240px;}
 	#banner a.brand {margin-left: -20px;}
+}
 
+
+@media screen and (min-width: 980px) and (max-width: 1199px) {
+	.single .span8 {width: 940px; float: none;}
 }
 
 @media (max-width: 979px) {
@@ -222,9 +259,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     padding-top: 0;
   }
 
-	.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container, #main {
-		width: 600px;
-	}
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container, #main {
+	width: 600px;
+}
 
 	body.home .page-header {display: none;}
 	#banner a.brand {float: none; width: 72px; margin: 0 auto;}
@@ -238,9 +275,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 	article.post .entry-meta p.entry-month {padding-left: 15px;}
 	article.post .entry-meta p.entry-year {font-size: 15px; padding: 0; font-weight: normal;padding-left: 20px; color: #777;}
 	article.post .entry-meta p.entry-comment-number {line-height: 30px; padding-left: 25px;font-size: 15px; top: 0; right: 0; background-size: 30px 30px; height: 30px; width: 30px;}
-	article.post .entry-content {float: none; padding-top: 20px;}
+	.home article.post .entry-content {float: none; padding-top: 20px;}
 	article.post .entry-footer {position: relative; overflow: hidden; }
 	article.post .entry-footer ul.entry-tags {overflow: hidden;border-top: 1px solid #ddd;}
+
 
 }
 
@@ -249,6 +287,21 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 		width: 100%;
 	}
 }
+
+/* ==========================================================================
+   Duoshuo
+   ========================================================================= */
+ .ds-thread {
+ 	background: white;
+ 	padding: 20px;
+ 	margin-bottom: 50px;
+	-webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.07);
+	-moz-box-shadow:    0 0 2px 2px rgba(0,0,0,0.07);
+	box-shadow:         0 0 2px 2px rgba(0,0,0,0.07);	
+ }
+.ds-powered-by, .ds-sort {display: none; }
+.ds-meta, .ds-comments-tabs {text-align: center;}
+
 
 /* ==========================================================================
    IE
