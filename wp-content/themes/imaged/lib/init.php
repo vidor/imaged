@@ -16,6 +16,7 @@ function roots_setup() {
   // Add post thumbnails (http://codex.wordpress.org/Post_Thumbnails)
   add_theme_support('post-thumbnails');
   set_post_thumbnail_size(600, 400, false);
+  add_image_size('archives', 300, 200, false);
   add_image_size('single-post', 1000, 9999); // 300px wide (and unlimited height)
   add_image_size('fullscreen', 1600, 9999);
 
