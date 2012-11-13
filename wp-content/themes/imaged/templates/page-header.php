@@ -24,7 +24,7 @@
           $author_id = $post->post_author;
           printf(__('Author Archives: %s', 'roots'), get_the_author_meta('display_name', $author_id));
         } else {
-          single_cat_title();
+          echo '标签：'; single_cat_title();
         }
       } elseif (is_search()) {
         printf(__('Search Results for %s', 'roots'), get_search_query());

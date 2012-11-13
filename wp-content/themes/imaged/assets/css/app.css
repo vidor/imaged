@@ -7,9 +7,7 @@ body {
 	font-family: "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-a {
-	color: #3385b9;
-}
+a { color: #2b8dc0; }
 
 a:hover {
 	color: black;
@@ -18,41 +16,34 @@ a:hover {
 
 h1, h2 {font-weight: normal;}
 
+::selection, ::-moz-selection { background: #2b8dc0;  color: white; /* Safari */}
+ 
+
 /* =============================================================================
    Header
    ========================================================================== */
 
 #banner {}
 
-#banner a.brand {
-	text-indent: -1000px;
-	background: url(../img/logo.jpg) no-repeat center center;
-	background-size: 72px 40px;
-	margin: 0;
-}
+#banner a.brand { text-indent: -1000px; background: url(../img/logo.jpg) no-repeat center center; background-size: 72px 40px; margin: 0; }
 
-.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
-	-webkit-box-shadow: 0 1px 10px rgba(0,0,0.1);
-	-moz-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
-	box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+.navbar-inner {filter: 0;}
+
+.navbar-fixed-top .navbar-inner, 
+.navbar-static-top .navbar-inner {
+	-webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+	-moz-box-shadow:    0 1px 10px rgba(0,0,0,0.1);
+	box-shadow:         0 1px 10px rgba(0,0,0,0.1);
 	background: white;
-
 }
 
-.navbar-inner {
-	filter: 0;
-}
 /* Fixed Topbar Navigation */
 body.top-navbar { padding-top: 60px; }
 body.admin-bar .navbar-fixed-top { top: 28px; }
 
 .navbar .btn-navbar {margin-right: 0;}
 
-.navbar .brand {
-	color: black;
-}
-
-
+.navbar .brand {color: black; }
 
 
 /* ==========================================================================
@@ -68,14 +59,14 @@ body.admin-bar .navbar-fixed-top { top: 28px; }
    ========================================================================== */
 
 #main {}
-.home article.post {
-	background: white;
-	margin-bottom: 50px;
-	-webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.07);
-	-moz-box-shadow:    0 0 2px 2px rgba(0,0,0,0.07);
-	box-shadow:         0 0 2px 2px rgba(0,0,0,0.07);	
-	overflow-y: hidden;
+
+
+body.home #main .page-header {display: none;}
+
+/*********** article.post base ***************/
+article.post {
 	position: relative;
+	margin: 0 0 50px 0;
 }
 
 article.post h2 {
@@ -90,6 +81,7 @@ article.post .entry-meta {
 	width: 60px;
 	display: block;
 	padding-top: 20px;
+	color: black;
 }
 
 article.post .entry-meta p {
@@ -118,13 +110,11 @@ article.post .entry-thumbnail {
 	float: left;
 }
 
-.home article.post .entry-content {
-	float: right;
-}
 
 article.post .entry-content {
 	padding: 20px;
 	padding-top: 15px;
+	color: #888;
 }
 
 article.post .entry-footer {
@@ -147,40 +137,34 @@ article.post .entry-tags li a{
 
 }
 
-/*============ load more ==============*/
-#load-more {
-	display: none;
-	background: white;	
-	-webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.07);
-	-moz-box-shadow:    0 0 2px 2px rgba(0,0,0,0.07);
-	box-shadow:         0 0 2px 2px rgba(0,0,0,0.07);	
+/********* home article **********/
+body.home #main {
+	padding-top: 50px;
 }
-
-#load-more a {display: block; padding: 15px; text-align: center;}
-#load-more a:hover {cursor: pointer;}
-
-
-
-/* ==========================================================================
-   Sidebar
-   ========================================================================== */
-
-#sidebar { }
-
+body.home article.post {
+	background: white;
+	overflow-y: hidden;
+	-webkit-box-shadow:  0 0 3px 3px rgba(0,0,0,0.07);
+	-moz-box-shadow:     0 0 3px 3px rgba(0,0,0,0.07);
+	box-shadow:          0 0 3px 3px rgba(0,0,0,0.07);
+}
+body.home article.post .entry-content {
+	float: right;
+}
 
 /* ==========================================================================
    single post
    ========================================================================== */
 .single article .entry-header {
 	background: white;
-	margin-bottom: 50px;
-	-webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.07);
-	-moz-box-shadow:    0 0 2px 2px rgba(0,0,0,0.07);
-	box-shadow:         0 0 2px 2px rgba(0,0,0,0.07);	
+	margin-bottom: 50px;	
 	overflow-y: hidden;
 	position: relative;
 	padding: 20px;
 	padding-bottom: 0;
+	-webkit-box-shadow: 0 0 3px 3px rgba(0,0,0,0.07);
+	-moz-box-shadow:    0 0 3px 3px rgba(0,0,0,0.07);
+	box-shadow:         0 0 3px 3px rgba(0,0,0,0.07);	
 }
 .single article h1 {
 	margin: 0;
@@ -189,16 +173,16 @@ article.post .entry-tags li a{
 	font-size: 31.5px;
 }
 
-.single article.post .entry-content {padding: 0;}
+.single article.post .entry-content {padding: 20px 0; }
 
 .single .entry-image {
 	background: white;
 	margin-bottom: 50px;
-	-webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.07);
-	-moz-box-shadow:    0 0 2px 2px rgba(0,0,0,0.07);
-	box-shadow:         0 0 2px 2px rgba(0,0,0,0.07);	
 	overflow-y: hidden;
 	position: relative;
+	-webkit-box-shadow: 0 0 3px 3px rgba(0,0,0,0.07);
+	-moz-box-shadow:    0 0 3px 3px rgba(0,0,0,0.07);
+	box-shadow:         0 0 3px 3px rgba(0,0,0,0.07);		
 }
 
 .single .entry-image p {
@@ -215,6 +199,77 @@ article.post .entry-tags li a{
 	overflow: hidden;
 	border-top: 1px solid #ddd;
 }
+
+/* ==========================================================================
+   archive
+   ========================================================================== */
+body.archive article.post {
+	background: white;
+	-webkit-box-shadow: 0 0 3px 3px rgba(0,0,0,0.07);
+	-moz-box-shadow:    0 0 3px 3px rgba(0,0,0,0.07);
+	box-shadow:         0 0 3px 3px rgba(0,0,0,0.07);	
+	overflow: hidden;
+}
+
+body.archive article.post h2 {font-size: 30px; height: 30px; line-height: 30px}
+
+body.archive article.post h2 a {}
+
+body.archive article.post .entry-thumbnail {
+
+}
+
+body.archive article.post .entry-thumbnail img {
+
+}
+
+body.archive article.post .entry-meta {
+
+}
+
+body.archive article.post .entry-meta p {
+
+}
+
+body.archive article.post .entry-meta p.entry-comment-number {
+	bottom: 0;
+	right: 0;
+}
+
+body.archive article.post .entry-meta p.entry-year {
+	position: absolute;
+	bottom: 0;
+	width: 60px;
+}
+
+
+
+body.archive article.post .entry-footer {
+	position: relative;
+}
+
+/*============ load more ==============*/
+#load-more {
+	display: none;
+	background: white;	
+	-webkit-box-shadow: 0 0 3px 3px rgba(0,0,0,0.07);
+	-moz-box-shadow:    0 0 3px 3px rgba(0,0,0,0.07);
+	box-shadow:         0 0 3px 3px rgba(0,0,0,0.07);	
+}
+
+#load-more a {display: block; padding: 15px; text-align: center;}
+#load-more a:hover {cursor: pointer;}
+
+
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+
+#sidebar { }
+
+
+
 /* ==========================================================================
    Posts
    ========================================================================== */
@@ -262,27 +317,44 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 		width: 1000px;
 	}
 
-	.home article.post div.entry-content {width: 300px;}
-
+	body.home article.post div.entry-content {width: 300px;}
+	body.archive article.post div.entry-content {width: 600px;}
+	body.archive article.post .entry-thumbnail {width: 300px;}
+	body.archive article.post .entry-content {float: right;}
 }
 
 @media screen and (min-width: 980px) {
 	.navbar .nav {float: right; margin: 0;}
 	.navbar .nav  li  a {color: black;padding: 10px 0 10px 20px;}
 	.home article.post .entry-content {width: 240px;}
-	#banner a.brand {margin-left: -20px;}
+	.archive article.post div.entry-content {width: 540px;}
+	#banner a.brand {margin-left: -10px;}
+	body.archive article.post .entry-thumbnail {width: 300px;}
+	body.archive article.post .entry-content {float: right;}
 }
 
 
 @media screen and (min-width: 980px) and (max-width: 1199px) {
-	.single .span8 {width: 940px; float: none;}
+	.single .span8,
+	.archive .span8
+	 {width: 940px; float: none;}
 }
 
 @media (max-width: 979px) {
+	body {padding: 0 10px;}
+	.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+		margin-right: -10px;
+		margin-left: -10px;
+	}	
   /* Fix top padding when using the responsive grid with the fixed topbar */
   body.top-navbar {
     padding-top: 0;
   }
+
+  .page-header h1{font-size: 30px}
+  body.archive article.post h2 {font-size: 20px}
+
+  body.archive article.post .entry-meta p.entry-year {position: relative;}
 
 .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container, #main {
 	width: 600px;
@@ -294,13 +366,12 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 	article.post {margin-bottom: 20px;}
 	article.post .entry-thumbnail {float: none;}
 	article.post h2 {font-size: 20px; line-height: 20px;}
-	article.post .entry-thumbnail {float: none;}
 	article.post .entry-meta {float: none; height: 30px; width: 100%; line-height: 30px; padding:0px;}
 	article.post .entry-meta p {float: left; margin: 0; font-size: 15px;}
 	article.post .entry-meta p.entry-month {padding-left: 15px;}
 	article.post .entry-meta p.entry-year {font-size: 15px; padding: 0; font-weight: normal;padding-left: 20px; color: #777;}
 	article.post .entry-meta p.entry-comment-number {line-height: 30px; padding-left: 25px;font-size: 15px; top: 0; right: 0; background-size: 30px 30px; height: 30px; width: 30px;}
-	.home article.post .entry-content {float: none; padding-top: 20px;}
+	article.post .entry-content {float: none; padding-top: 20px;}
 	article.post .entry-footer {position: relative; overflow: hidden; }
 	article.post .entry-footer ul.entry-tags {overflow: hidden;border-top: 1px solid #ddd;}
 	.single article h1 {font-size: 20px;}
@@ -319,7 +390,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 		width: 100%;
 	}
 
-	.navbar .btn-navbar {margin-right: 15px;}
+	.navbar .btn-navbar {margin-right: 10px;}
 }
 
 /* ==========================================================================
@@ -329,9 +400,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
  	background: white;
  	padding: 5px 20px 20px 20px;
  	margin-bottom: 50px;
-	-webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.07);
-	-moz-box-shadow:    0 0 2px 2px rgba(0,0,0,0.07);
-	box-shadow:         0 0 2px 2px rgba(0,0,0,0.07);	
+	-webkit-box-shadow: 0 0 3px 3px rgba(0,0,0,0.07);
+	-moz-box-shadow:    0 0 3px 3px rgba(0,0,0,0.07);
+	box-shadow:         0 0 3px 3px rgba(0,0,0,0.07);	
  }
 .ds-powered-by, .ds-sort, .ds-login-buttons {display: none; }
 .ds-meta, .ds-comments-tabs {text-align: center;}
