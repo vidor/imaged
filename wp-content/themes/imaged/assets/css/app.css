@@ -2,81 +2,79 @@
    Base
    ========================================================================== */
 
-body {
-	background: #efefef;
-	font-family: "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
-}
+body {background: #efefef;font-family: "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;}
 
 a { color: #2b8dc0; }
 
-a:hover {
-	color: black;
-	text-decoration: none;
-}
+a:hover { color: black; text-decoration: none;}
 
 h1, h2 {font-weight: normal;}
 
 ::selection, ::-moz-selection { background: #2b8dc0;  color: white; /* Safari */}
- 
 
+body {padding: 0 10px;}
+.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top { margin-right: -10px; margin-left: -10px; }
+
+.row { margin: 0; }
+.span12, .span8 {margin: 0;}
 /* =============================================================================
    Header
    ========================================================================== */
 
 #banner {}
 
-#banner a.brand { text-indent: -1000px; background: url(../img/logo.jpg) no-repeat center center; background-size: 72px 40px; margin: 0; }
+#banner a.brand { text-indent: -1000px; background: url(../img/logo.jpg) no-repeat left center; background-size: 72px 40px; margin: 0; }
 
 .navbar-inner {filter: 0;}
 
 .navbar-fixed-top .navbar-inner, 
 .navbar-static-top .navbar-inner {
-	-webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
-	-moz-box-shadow:    0 1px 10px rgba(0,0,0,0.1);
-	box-shadow:         0 1px 10px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+	-moz-box-shadow:    0 1px 10px rgba(0,0,0,0.2);
+	box-shadow:         0 1px 10px rgba(0,0,0,0.2);
 	background: white;
 }
 
+.navbar .nav {float: right;}
+
 /* Fixed Topbar Navigation */
-body.top-navbar { padding-top: 60px; }
-body.admin-bar .navbar-fixed-top { top: 28px; }
+.top-navbar { padding-top: 41px; }
+.admin-bar .navbar-fixed-top { top: 28px; }
 
 .navbar .btn-navbar {margin-right: 0;}
 
 .navbar .brand {color: black; }
 
-
 /* ==========================================================================
    Content
    ========================================================================== */
-
 #content { }
-
-
-
 /* ==========================================================================
    Primary Content
    ========================================================================== */
-
-#main {}
-
-
-body.home #main .page-header {display: none;}
-
-/*********** article.post base ***************/
-article.post {
+#main { padding-top: 60px; }
+#main .page-header { margin: 30px 0; padding: 0; text-align: center; }
+/* ==========================================================================
+   Post Base
+   ========================================================================== */
+.post {
 	position: relative;
 	margin: 0 0 50px 0;
+	background: white;
+	overflow-y: hidden;
+	-webkit-box-shadow:  0 0 3px 3px rgba(0,0,0,0.07);
+	-moz-box-shadow:     0 0 3px 3px rgba(0,0,0,0.07);
+	box-shadow:          0 0 3px 3px rgba(0,0,0,0.07);	
 }
 
-article.post h2 {
+.post h2 {
 	line-height: 40px;
 	margin: 0 0 20px 0;
 }
 
-article.post h2 a {display: block;}
+.post h2 a {display: block;}
 
-article.post .entry-meta {
+.post .entry-meta {
 	float: left;
 	width: 60px;
 	display: block;
@@ -84,18 +82,18 @@ article.post .entry-meta {
 	color: black;
 }
 
-article.post .entry-meta p {
+.post .entry-meta p {
 	font-size: 30px;
 	text-align: center;
 }
 
-article.post .entry-meta p.entry-year {
+.post .entry-meta p.entry-year {
 	font-size: 15px;
 	padding-top: 15px;
 	font-weight: bold;
 }
 
-article.post .entry-meta p.entry-comment-number {
+.post .entry-meta p.entry-comment-number {
 	background: url(../img/comment.jpg) no-repeat;
 	height: 60px;
 	width: 60px;
@@ -106,75 +104,54 @@ article.post .entry-meta p.entry-comment-number {
 	margin: 0;
 }
 
-article.post .entry-thumbnail {
-	float: left;
-}
+.post .entry-thumbnail {float: left;}
 
 
-article.post .entry-content {
+.post .entry-content {
 	padding: 20px;
 	padding-top: 15px;
 	color: #888;
+	float: right; 
 }
 
-article.post .entry-footer {
-	position: absolute;
-	bottom: 0;
-}
+.post .entry-footer { position: absolute;bottom: 0; }
 
-article.post .entry-tags {
-	margin: 0;
-}
+.post .entry-tags {margin: 0;}
+.post .entry-tags li { float: left;list-style-type: none; }
+.post .entry-tags li a { display: block; padding: 10px 10px 10px 0; }
 
-article.post .entry-tags li {
-	float: left;
-	list-style-type: none;
-}
+/* ==========================================================================
+   Home
+   ========================================================================== */
 
-article.post .entry-tags li a{
-	display: block;
-	padding: 10px 10px 10px 0;
+.home #main .page-header {display: none;}
 
-}
-
-/********* home article **********/
-body.home #main {
-	padding-top: 50px;
-}
-body.home article.post {
-	background: white;
-	overflow-y: hidden;
-	-webkit-box-shadow:  0 0 3px 3px rgba(0,0,0,0.07);
-	-moz-box-shadow:     0 0 3px 3px rgba(0,0,0,0.07);
-	box-shadow:          0 0 3px 3px rgba(0,0,0,0.07);
-}
-body.home article.post .entry-content {
-	float: right;
-}
 
 /* ==========================================================================
    single post
    ========================================================================== */
-.single article .entry-header {
-	background: white;
-	margin-bottom: 50px;	
-	overflow-y: hidden;
+.single .post {
+	-webkit-box-shadow: 0 0 3px 3px rgba(0,0,0,0);
+	-moz-box-shadow:    0 0 3px 3px rgba(0,0,0,0);
+	box-shadow:         0 0 3px 3px rgba(0,0,0,0);	
+	background: transparent;	
+	overflow-y: visible;
+}
+.single  .entry-header {
 	position: relative;
 	padding: 20px;
 	padding-bottom: 0;
-	-webkit-box-shadow: 0 0 3px 3px rgba(0,0,0,0.07);
-	-moz-box-shadow:    0 0 3px 3px rgba(0,0,0,0.07);
-	box-shadow:         0 0 3px 3px rgba(0,0,0,0.07);	
 }
-.single article h1 {
+.single  h1 {
 	margin: 0;
 	margin-bottom: 10px;
 	text-align: center;
 	font-size: 31.5px;
 }
 
-.single article.post .entry-content {padding: 20px 0; }
+.single .post .entry-content {padding: 20px 0; float: none;}
 
+.single  .entry-header,
 .single .entry-image {
 	background: white;
 	margin-bottom: 50px;
@@ -185,67 +162,15 @@ body.home article.post .entry-content {
 	box-shadow:         0 0 3px 3px rgba(0,0,0,0.07);		
 }
 
-.single .entry-image p {
-	margin: 10px 20px;
-}
+.single .entry-image p { margin: 10px 20px; }
 
-.single article.post .entry-footer {
-	position: relative;
-}
+.single .post .entry-footer { position: relative; }
 
-.single article.post .entry-tags {
+.single .post .entry-tags {
 	float: none;
 	display: block;
 	overflow: hidden;
 	border-top: 1px solid #ddd;
-}
-
-/* ==========================================================================
-   archive
-   ========================================================================== */
-body.archive article.post {
-	background: white;
-	-webkit-box-shadow: 0 0 3px 3px rgba(0,0,0,0.07);
-	-moz-box-shadow:    0 0 3px 3px rgba(0,0,0,0.07);
-	box-shadow:         0 0 3px 3px rgba(0,0,0,0.07);	
-	overflow: hidden;
-}
-
-body.archive article.post h2 {font-size: 30px; height: 30px; line-height: 30px}
-
-body.archive article.post h2 a {}
-
-body.archive article.post .entry-thumbnail {
-
-}
-
-body.archive article.post .entry-thumbnail img {
-
-}
-
-body.archive article.post .entry-meta {
-
-}
-
-body.archive article.post .entry-meta p {
-
-}
-
-body.archive article.post .entry-meta p.entry-comment-number {
-	bottom: 0;
-	right: 0;
-}
-
-body.archive article.post .entry-meta p.entry-year {
-	position: absolute;
-	bottom: 0;
-	width: 60px;
-}
-
-
-
-body.archive article.post .entry-footer {
-	position: relative;
 }
 
 /*============ load more ==============*/
@@ -260,6 +185,22 @@ body.archive article.post .entry-footer {
 #load-more a {display: block; padding: 15px; text-align: center;}
 #load-more a:hover {cursor: pointer;}
 
+
+
+/* ==========================================================================
+   archive
+   ========================================================================== */
+
+ .archive #main { padding-top: 0; padding: 0; margin: 0; }
+ .archive #main h1 {margin: 0;} 
+
+.archive .post h2 {font-size: 30px; height: 30px; line-height: 30px}
+
+.archive .post .entry-meta p.entry-comment-number {bottom: 0;right: 0;}
+
+.archive .post .entry-meta p.entry-year { position: absolute; bottom: 0; width: 60px; }
+
+.archive .post .entry-footer {position: relative;}
 
 
 /* ==========================================================================
@@ -311,86 +252,75 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-
 @media (min-width: 1200px) {
-	.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container, #main {
-		width: 1000px;
-	}
+	.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container, #main, .span8 {width: 1000px;}
 
-	body.home article.post div.entry-content {width: 300px;}
-	body.archive article.post div.entry-content {width: 600px;}
-	body.archive article.post .entry-thumbnail {width: 300px;}
-	body.archive article.post .entry-content {float: right;}
+	.home    .post div.entry-content {width: 300px;}
+
+	.archive .post div.entry-content {width: 600px;}
+	.archive .post .entry-thumbnail {width: 300px;}
 }
+
+/* ==========================================================================
+   >980
+   ========================================================================== */
 
 @media screen and (min-width: 980px) {
-	.navbar .nav {float: right; margin: 0;}
-	.navbar .nav  li  a {color: black;padding: 10px 0 10px 20px;}
-	.home article.post .entry-content {width: 240px;}
-	.archive article.post div.entry-content {width: 540px;}
-	#banner a.brand {margin-left: -10px;}
-	body.archive article.post .entry-thumbnail {width: 300px;}
-	body.archive article.post .entry-content {float: right;}
+	.span8 {width: 940px; float: none;}
+
+	.home    .post .entry-content {width: 240px;}
+
+	.archive .post .entry-content {width: 540px;}
+	.archive .post .entry-thumbnail {width: 300px;}
+	.archive .post .entry-content {float: right;}
 }
 
+/* ==========================================================================
 
-@media screen and (min-width: 980px) and (max-width: 1199px) {
-	.single .span8,
-	.archive .span8
-	 {width: 940px; float: none;}
-}
+   ========================================================================== */
 
 @media (max-width: 979px) {
-	body {padding: 0 10px;}
-	.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
-		margin-right: -10px;
-		margin-left: -10px;
-	}	
-  /* Fix top padding when using the responsive grid with the fixed topbar */
-  body.top-navbar {
-    padding-top: 0;
-  }
+	.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container, #main { width: 600px;}
+	
+  	/* Fix top padding when using the responsive grid with the fixed topbar */
+  	.navbar-fixed-top {margin-bottom: 0;}
+  	.top-navbar {padding-top: 0;}
+  	.archive .page-header {margin: 0 0 20px 0;}
+  	.page-header h1{font-size: 30px}
+    .archive .post h2 {font-size: 20px}
 
-  .page-header h1{font-size: 30px}
-  body.archive article.post h2 {font-size: 20px}
+    .archive .post .entry-meta p.entry-year {position: relative;}
 
-  body.archive article.post .entry-meta p.entry-year {position: relative;}
+	.home .page-header {display: none;}
+	#banner a.brand {float: none; width: 72px; margin: 0 auto; background-position: center center;}
+	.navbar .nav {float: none; }
 
-.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container, #main {
-	width: 600px;
-}
-
-	body.home .page-header {display: none;}
-	#banner a.brand {float: none; width: 72px; margin: 0 auto;}
 	.navbar .nav  li  a {text-align: center;}
-	article.post {margin-bottom: 20px;}
-	article.post .entry-thumbnail {float: none;}
-	article.post h2 {font-size: 20px; line-height: 20px;}
-	article.post .entry-meta {float: none; height: 30px; width: 100%; line-height: 30px; padding:0px;}
-	article.post .entry-meta p {float: left; margin: 0; font-size: 15px;}
-	article.post .entry-meta p.entry-month {padding-left: 15px;}
-	article.post .entry-meta p.entry-year {font-size: 15px; padding: 0; font-weight: normal;padding-left: 20px; color: #777;}
-	article.post .entry-meta p.entry-comment-number {line-height: 30px; padding-left: 25px;font-size: 15px; top: 0; right: 0; background-size: 30px 30px; height: 30px; width: 30px;}
-	article.post .entry-content {float: none; padding-top: 20px;}
-	article.post .entry-footer {position: relative; overflow: hidden; }
-	article.post .entry-footer ul.entry-tags {overflow: hidden;border-top: 1px solid #ddd;}
-	.single article h1 {font-size: 20px;}
+	.post {margin-bottom: 20px;}
+	.post .entry-thumbnail {float: none;}
+	.post h2 {font-size: 20px; line-height: 20px;}
+	.post .entry-meta {float: none; height: 30px; width: 100%; line-height: 30px; padding:0px;}
+	.post .entry-meta p {float: left; margin: 0; font-size: 15px;}
+	.post .entry-meta p.entry-month {padding-left: 15px;}
+	.post .entry-meta p.entry-year {font-size: 15px; padding: 0; font-weight: normal;padding-left: 20px; color: #777;}
+	.post .entry-meta p.entry-comment-number {line-height: 30px; padding-left: 25px;font-size: 15px; top: 0; right: 0; background-size: 30px 30px; height: 30px; width: 30px;}
+	.post .entry-content {float: none; padding-top: 20px;}
+	.post .entry-footer {position: relative; overflow: hidden; }
+	.post .entry-footer ul.entry-tags {overflow: hidden;border-top: 1px solid #ddd;}
+	.single  h1 {font-size: 20px;}
 	/*duoshuo*/
 	#ds-thread #ds-reset .ds-post-self:hover a.ds-post-report,
 	#ds-thread #ds-reset .ds-post-self:hover a.ds-post-delete, 
 	#ds-thread .ds-toolbar-buttons,
-	#ds-thread .ds-sync{
-		display: none;
-	}
+	#ds-thread .ds-sync{display: none;}
 
 }
 
 @media (max-width: 640px) {
-	.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container, #main {
-		width: 100%;
-	}
-
+	.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container, #main { width: 100%;}
+	.archive .page-header {margin: 0 0 20px 0;}
 	.navbar .btn-navbar {margin-right: 10px;}
+	.post img {width: 100%;}
 }
 
 /* ==========================================================================
@@ -412,7 +342,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    IE
    ========================================================================== */
 .lt-ie9 .container, .lt-ie9 #main{width: 1000px;}
-.lt-ie7 body.top-navbar { padding-top: 0px;}
+.lt-ie7 .top-navbar { padding-top: 0px;}
 .lt-ie7 .alert { margin: 0;}
 .lt-ie7 ul.nav { float: right;}
 .lt-ie7 ul.nav li { float: left; line-height: 40px; padding-left: 20px; }
