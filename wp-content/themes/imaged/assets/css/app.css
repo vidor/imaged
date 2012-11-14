@@ -45,10 +45,18 @@ body {padding: 0 10px;}
 
 .navbar .brand {color: black; }
 
+#nav-icon {float: right; margin: 0; padding: 0;}
+#nav-icon li {float: left; list-style-type: none;} 
+#nav-icon a {display: block; text-indent: -9999px; width: 40px; line-height: 40px; background: url(../img/SearchAndRSS.jpg) no-repeat;  background-size: 40px 160px;}
+#nav-icon a#search-icon {cursor: pointer;}
+#nav-icon a#search-icon:hover {background-position: 0 -80px;}
+#nav-icon a#feed-icon {background-position: 0 -40px;}
+#nav-icon a#feed-icon:hover {background-position: 0 -120px;}
 /* ==========================================================================
    Content
    ========================================================================== */
 #content { }
+form#searchform {margin: 0; text-align: center; margin-top: 50px; display: none;}
 /* ==========================================================================
    Primary Content
    ========================================================================== */

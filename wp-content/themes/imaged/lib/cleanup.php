@@ -491,6 +491,8 @@ add_filter('dynamic_sidebar_params', 'roots_widget_first_last_classes');
  *
  * @link http://txfx.net/wordpress-plugins/nice-search/
  */
+
+/* comment for search chinese
 function roots_nice_search_redirect() {
   if (is_search() && strpos($_SERVER['REQUEST_URI'], '/wp-admin/') === false && strpos($_SERVER['REQUEST_URI'], '/search/') === false) {
     wp_redirect(home_url('/search/' . str_replace(array(' ', '%20'), array('+', '+'), urlencode(get_query_var('s')))), 301);
@@ -499,7 +501,7 @@ function roots_nice_search_redirect() {
 }
 
 add_action('template_redirect', 'roots_nice_search_redirect');
-
+*/
 /**
  * Fix for get_search_query() returning +'s between search terms
  */

@@ -14,6 +14,7 @@
 
   <div id="wrap" class="container" role="document">
     <div id="content" class="row">
+      <?php get_search_form(); ?>
       <div id="main" class="<?php echo roots_main_class(); ?>" role="main">
         <?php include roots_template_path(); ?>
       </div>

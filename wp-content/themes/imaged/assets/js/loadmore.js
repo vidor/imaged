@@ -1,4 +1,4 @@
-jQuery(document).ready(function() { 
+jQuery(document).ready(function($) { 
 
 	var loadMore = jQuery('#load-more a');	
 	var posts_per_page = parseInt(loadMore.attr('data-perpage'));
