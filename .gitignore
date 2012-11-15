@@ -2,4 +2,4 @@ wp-config.php
 .DS_Store
 /wp-content/uploads/
 /assets/
-error_log
+/error_log

@@ -222,7 +222,6 @@ form#searchform {margin: 0; text-align: center; margin-top: 50px; display: none;
    ========================================================================== */
 .archives-month {
 	background: url(../img/archives-bg.png);
-	background-size: 128px 128px;
 	margin-bottom: 50px;
 	overflow-y: hidden;
 	position: relative;
@@ -232,7 +231,7 @@ form#searchform {margin: 0; text-align: center; margin-top: 50px; display: none;
 }
 
 .archives-month h2 {background: white; padding: 10px; line-height: 31.5px;margin: 0;}
-.archives-thumbnail {float: left; width: 33.3333%;}
+.archives-thumbnail {float: left; width: 25%;}
 .archives-thumbnail img {width: 100%;}
 /* ==========================================================================
    Sidebar
@@ -284,7 +283,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    Media Queries
    ========================================================================== */
 @media (min-width: 1200px) {
-	.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container, #main, .span8 {width: 999px;}
+	.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container, #main, .span8 {width: 1000px;}
 	.home    .post div.entry-content {width: 300px;}
 
 	.archive .post div.entry-content,
@@ -316,6 +315,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width: 979px) {
 	.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container, #main { width: 600px;}
+
+	#nav-icon {display: none;}
 	
   	/* Fix top padding when using the responsive grid with the fixed topbar */
   	.navbar-fixed-top {margin-bottom: 0;}
@@ -360,6 +361,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 	.search  .page-header {margin: 0 0 20px 0;}
 	.navbar .btn-navbar {margin-right: 10px;}
 	.post img {width: 100%;}
+	.archives-thumbnail {width: 50%;}
 }
 
 /* ==========================================================================
