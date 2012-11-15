@@ -24,15 +24,18 @@
           $author_id = $post->post_author;
           printf(__('Author Archives: %s', 'roots'), get_the_author_meta('display_name', $author_id));
         } else {
-          echo '标签：'; single_cat_title();
+          echo '标签：“'; 
+          single_cat_title();
+          echo '”';
         }
       } elseif (is_search()) {
-        printf(__('Search Results for %s', 'roots'), get_search_query());
+        printf(__('搜索: “%s”', 'roots'), get_search_query());
       } elseif (is_404()) {
         _e('File Not Found', 'roots');
       } else {
         the_title();
       }
     ?>
+    <?php //echo '，发现' . $wp_query->found_posts . '条结果'; ?>
   </h1>
 </div>

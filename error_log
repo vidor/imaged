@@ -1,4 +1,0 @@
-[09-Oct-2012 04:14:58] PHP Parse error:  syntax error, unexpected ';' in /home5/vidorme/public_html/imaged/wp-content/themes/elastico/includes/postformats/standard.php on line 3
-[09-Oct-2012 04:15:17] PHP Parse error:  syntax error, unexpected ';' in /home5/vidorme/public_html/imaged/wp-content/themes/elastico/includes/postformats/standard.php on line 3
-[10-Oct-2012 05:05:47] PHP Parse error:  syntax error, unexpected $end in /home5/vidorme/public_html/imaged/wp-content/themes/elastico/sidebar.php on line 86
-[04-Nov-2012 12:32:56] PHP Fatal error:  Call to undefined function  add_imaged_size() in /home5/vidorme/public_html/imaged/wp-content/themes/imaged/lib/init.php on line 20
