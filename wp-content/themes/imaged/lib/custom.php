@@ -19,3 +19,16 @@ function imaged_ajax_loadmore(){
 
 add_action('wp_ajax_imaged_ajax_loadmore', 'imaged_ajax_loadmore'); 
 add_action('wp_ajax_nopriv_imaged_ajax_loadmore', 'imaged_ajax_loadmore');  
+
+
+/*-------------------------------------------------------------------------------------*/
+/*	Get All Posts for Archives
+/*--------------------------------------------------------------------------------------*/
+function get_posts_archives() {
+	$rawposts = get_posts(array('numberposts' => -1));			
+	foreach( $rawposts as $post ) {
+		$posts[ mysql2date( 'Y.m', $post->post_date ) ][] = $post;
+	}
+	$rawposts = null; 
+	return $posts;			
+}		
