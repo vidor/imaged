@@ -268,6 +268,19 @@ form#searchform {margin: 0; text-align: center; margin-top: 50px; display: none;
 
 
 /* ==========================================================================
+	About Me
+   ========================================================================== */
+#about-me {
+	background: white;
+	-webkit-box-shadow: 0 0 3px 3px rgba(0,0,0,0.07);
+	-moz-box-shadow:    0 0 3px 3px rgba(0,0,0,0.07);
+	box-shadow:         0 0 3px 3px rgba(0,0,0,0.07);	
+	padding: 30px;	
+	margin-bottom: 50px;
+}
+#about-me h1 { text-align: center; font-size: 31.5px;}
+
+/* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
    ========================================================================== */
