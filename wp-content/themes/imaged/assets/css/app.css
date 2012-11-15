@@ -199,41 +199,18 @@ form#searchform {margin: 0; text-align: center; margin-top: 50px; display: none;
    archive
    ========================================================================== */
 
- .archive #main,
- .search  #main { padding-top: 0; padding: 0; margin: 0; }
- .archive #main h1,
- .search  #main h1 {margin: 0;} 
+ .archive #main { padding-top: 0; padding: 0; margin: 0; }
+ .archive #main h1 {margin: 0;} 
 
-.archive .post h2,
-.search  .post h2 {font-size: 30px; height: 30px; line-height: 30px}
+.archive .post h2 {font-size: 30px; height: 30px; line-height: 30px}
 
-.archive .post .entry-meta p.entry-comment-number,
-.search  .post .entry-meta p.entry-comment-number {bottom: 0;right: 0;}
+.archive .post .entry-meta p.entry-comment-number {bottom: 0;right: 0;}
 
-.archive .post .entry-meta p.entry-year,
-.search  .post .entry-meta p.entry-year { position: absolute; bottom: 0; width: 60px; }
+.archive .post .entry-meta p.entry-year { position: absolute; bottom: 0; width: 60px; }
 
-.archive .post .entry-footer,
-.search  .post .entry-footer {position: relative;}
+.archive .post .entry-footer {position: relative;}
 
 
-/* ==========================================================================
-   archives template
-   ========================================================================== */
-.archives-month {
-	background: url(../img/archives-bg.png);
-	background-size: 128px 128px;
-	margin-bottom: 50px;
-	overflow-y: hidden;
-	position: relative;
-	-webkit-box-shadow: 0 0 3px 3px rgba(0,0,0,0.07);
-	-moz-box-shadow:    0 0 3px 3px rgba(0,0,0,0.07);
-	box-shadow:         0 0 3px 3px rgba(0,0,0,0.07);		
-}
-
-.archives-month h2 {background: white; padding: 10px; line-height: 31.5px;margin: 0;}
-.archives-thumbnail {float: left; width: 33.3333%;}
-.archives-thumbnail img {width: 100%;}
 /* ==========================================================================
    Sidebar
    ========================================================================== */
@@ -284,13 +261,12 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    Media Queries
    ========================================================================== */
 @media (min-width: 1200px) {
-	.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container, #main, .span8 {width: 999px;}
+	.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container, #main, .span8 {width: 1000px;}
+
 	.home    .post div.entry-content {width: 300px;}
 
-	.archive .post div.entry-content,
-	.search  .post div.entry-content {width: 600px;}
-	.archive .post .entry-thumbnail,
-	.search  .post .entry-thumbnail {width: 300px;}
+	.archive .post div.entry-content {width: 600px;}
+	.archive .post .entry-thumbnail {width: 300px;}
 }
 
 /* ==========================================================================
@@ -302,12 +278,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 	.home    .post .entry-content {width: 240px;}
 
-	.archive .post .entry-content,
-	.search  .post .entry-content {width: 540px;}
-	.archive .post .entry-thumbnail,
-	.search  .post .entry-thumbnail {width: 300px;}
-	.archive .post .entry-content,
-	.search  .post .entry-content {float: right;}
+	.archive .post .entry-content {width: 540px;}
+	.archive .post .entry-thumbnail {width: 300px;}
+	.archive .post .entry-content {float: right;}
 }
 
 /* ==========================================================================
@@ -320,14 +293,11 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
   	/* Fix top padding when using the responsive grid with the fixed topbar */
   	.navbar-fixed-top {margin-bottom: 0;}
   	.top-navbar {padding-top: 0;}
-  	.archive .page-header,
-  	.search  .page-header  {margin: 0 0 20px 0;}
-  	.page-header {font-size: 30px}
-    .archive .post h2,
-    .search  .post h2 {font-size: 20px}
+  	.archive .page-header {margin: 0 0 20px 0;}
+  	.page-header h1{font-size: 30px}
+    .archive .post h2 {font-size: 20px}
 
-    .archive .post .entry-meta p.entry-year,
-    .search  .post .entry-meta p.entry-year{position: relative;}
+    .archive .post .entry-meta p.entry-year {position: relative;}
 
 	.home .page-header {display: none;}
 	#banner a.brand {float: none; width: 72px; margin: 0 auto; background-position: center center;}
@@ -340,7 +310,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 	.post .entry-meta {float: none; height: 30px; width: 100%; line-height: 30px; padding:0px;}
 	.post .entry-meta p {float: left; margin: 0; font-size: 15px;}
 	.post .entry-meta p.entry-month {padding-left: 15px;}
-	.post .entry-meta p.entry-year {font-size: 15px; padding: 0; font-weight: normal;padding-left: 5px; }
+	.post .entry-meta p.entry-year {font-size: 15px; padding: 0; font-weight: normal;padding-left: 20px; color: #777;}
 	.post .entry-meta p.entry-comment-number {line-height: 30px; padding-left: 25px;font-size: 15px; top: 0; right: 0; background-size: 30px 30px; height: 30px; width: 30px;}
 	.post .entry-content {float: none; padding-top: 20px;}
 	.post .entry-footer {position: relative; overflow: hidden; }
@@ -356,8 +326,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width: 640px) {
 	.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container, #main { width: 100%;}
-	.archive .page-header,
-	.search  .page-header {margin: 0 0 20px 0;}
+	.archive .page-header {margin: 0 0 20px 0;}
 	.navbar .btn-navbar {margin-right: 10px;}
 	.post img {width: 100%;}
 }
