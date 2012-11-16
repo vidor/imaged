@@ -134,7 +134,6 @@ form#searchform {margin: 0; text-align: center; margin-top: 50px; display: none;
 
 .home #main .page-header {display: none;}
 
-
 /* ==========================================================================
    single post
    ========================================================================== */
@@ -297,7 +296,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    ========================================================================== */
 @media (min-width: 1200px) {
 	.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container, #main, .span8 {width: 1000px;}
-	.home    .post div.entry-content {width: 300px;}
+
+	.home .post div.entry-content {width: 300px;}
 
 	.archive .post div.entry-content,
 	.search  .post div.entry-content {width: 600px;}
@@ -396,6 +396,15 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    IE
    ========================================================================== */
 .lt-ie9 .container, .lt-ie9 #main{width: 1000px;}
+.lt-ie9 .home .post div.entry-content {width: 300px;}
+
+.lt-ie9 #banner a.brand {width: 72px; background: url(../img/logo-lt-ie9.png) no-repeat left center;}
+.lt-ie9 #nav-icon a {background: url(../img/SearchAndRSS-lt-ie9.png) no-repeat top center;}
+.lt-ie9 .archive .post div.entry-content,
+.lt-ie9 .search  .post div.entry-content {width: 600px;}
+.lt-ie9 .archive .post .entry-thumbnail,
+.lt-ie9 .search  .post .entry-thumbnail {width: 300px;}
+
 .lt-ie7 .top-navbar { padding-top: 0px;}
 .lt-ie7 .alert { margin: 0;}
 .lt-ie7 ul.nav { float: right;}
