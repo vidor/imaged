@@ -189,10 +189,10 @@ form#searchform {margin: 0; text-align: center; margin-top: 50px; display: none;
 	-webkit-box-shadow: 0 0 3px 3px rgba(0,0,0,0.07);
 	-moz-box-shadow:    0 0 3px 3px rgba(0,0,0,0.07);
 	box-shadow:         0 0 3px 3px rgba(0,0,0,0.07);	
+	cursor: pointer;
 }
 
-#load-more a {display: block; padding: 15px; text-align: right;background: url(../img/load-more.png) no-repeat center center; background-size: 25px 25px;}
-#load-more a:hover {cursor: pointer;}
+#load-more a {cursor: pointer; display: block; padding: 15px; text-align: right;background: url(../img/load-more.png) no-repeat center center; background-size: 25px 25px;}
 #load-more a span {font-size: 20px; color: black;}
 
 #load-more a.active {background: url(../img/loader.gif) no-repeat center center; background-size: 25px 25px;}
@@ -408,8 +408,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .lt-ie9 .search  .post div.entry-content {width: 600px;}
 .lt-ie9 .archive .post .entry-thumbnail,
 .lt-ie9 .search  .post .entry-thumbnail {width: 300px;}
-.lt-ie9 #load-more a {background: url(../img/load-more-lt-ie9.png) no-repeat center center;}
-.lt-ie9 #load-more a.active {background: url(../img/loader-lt-ie9.gif) no-repeat center center;}
+.lt-ie9 #load-more a {float:left; width: 1000px; padding: 15px 0; cursor: pointer; background: white url(../img/load-more-lt-ie9.png) no-repeat center center;}
+.lt-ie9 #load-more a.active {background: white url(../img/loader-lt-ie9.gif) no-repeat center center;}
+.lt-ie9 #load-more a span { padding-right: 15px;}
 
 .lt-ie7 .top-navbar { padding-top: 0px;}
 .lt-ie7 .alert { margin: 0 -10px; text-align: center;}
