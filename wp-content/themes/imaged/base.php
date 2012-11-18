@@ -1,7 +1,7 @@
 <?php get_template_part('templates/head'); ?>
 <body <?php body_class(); ?>>
 
-  <!--[if lt IE 7]><div class="alert">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</div><![endif]-->
+  <!--[if lt IE 7]><div class="alert">您现正在使用的浏览器已经 <em>过时了! </em>建议使用 <a href="http://browsehappy.com/">现代浏览器</a> 或安装 <a href="http://www.google.com/chromeframe/?redirect=true">Google Chrome Frame</a> 能获得更好的显示和体验。</div><![endif]-->
 
   <?php
     // Use Bootstrap's navbar if enabled in config.php

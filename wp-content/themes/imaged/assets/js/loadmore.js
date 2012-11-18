@@ -4,7 +4,6 @@ jQuery(document).ready(function($) {
 	var posts_per_page = parseInt(loadMore.attr('data-perpage'));
 	var offset = posts_per_page;
 	var totalPosts = parseInt(loadMore.attr('data-total-posts'));
-	var loader = jQuery('#posts-count').attr('data-loader');
 
 	if (offset < totalPosts) {
 		$('#load-more').show();
@@ -13,8 +12,7 @@ jQuery(document).ready(function($) {
 
 	function loadMoreInit() {
 		loadMore.click(function(e) {			
-			jQuery(this).unbind("click").addClass('active');				
-			jQuery('#posts-count').html('<img src="'+ loader +'"/>');	
+			jQuery(this).unbind("click").addClass('active');
 			loadMorePosts();
 			e.preventDefault();			
 		});			
@@ -35,7 +33,8 @@ jQuery(document).ready(function($) {
 				var scrollToId = $($(data)[0]).attr('id');
 				$('#load-more').before($newEls);
 				var topOffset = 90;
-				if($(document).width() < 980) topOffset = 20; 
+				//if topnavbar no fix
+				if($(document).width() < 980 || $('html').hasClass('lt-ie7') ) topOffset = 20; 
 				$("html, body").stop().animate({ scrollTop: $('#' + scrollToId).offset().top  - topOffset}, 1000, 'easeOutExpo');
 					offset = offset + posts_per_page;	
 					loadMore.removeClass('active');

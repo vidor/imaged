@@ -12,12 +12,9 @@
 
 <?php $total_posts = $wp_query->found_posts; ?>
 <div id="load-more">                
-            <a data-total-posts="<?php echo $total_posts ; ?>" data-perpage="<?php echo get_option('posts_per_page');?>">
-                  <span id="load-btn-icon"></span><?php _e('加载更多', 'si_theme'); ?>  
-                    <span id="posts-count" data-loader="<?php echo get_template_directory_uri(); ?>/assets/img/ajax-loader.gif">
-                            <?php echo get_option('posts_per_page').'/'. $total_posts; ?>
-                    </span>                            
-            </a>
+  <a data-total-posts="<?php echo $total_posts ; ?>" data-perpage="<?php echo get_option('posts_per_page');?>">
+    <span id="posts-count"> <?php echo get_option('posts_per_page').'/'. $total_posts; ?></span>                            
+  </a>
 </div>
 
 <?php /* if ($wp_query->max_num_pages > 1) : ?>
