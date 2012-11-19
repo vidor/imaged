@@ -258,7 +258,7 @@ form#searchform {margin: 0; text-align: center; margin-top: 50px; display: none;
 .archives-thumbnail {float: left; width: 25%;}
 .archives-thumbnail img {width: 100%;}
 .archives-thumbnail a {display: block; position: relative;}
-.archives-thumbnail h3 {display: none; position: absolute; bottom: 0; margin: 0;font-size: 15px; line-height: 15px; width: 100%; text-align: center; padding: 10px 0;background: rgba(0, 0, 0, 0.5); color: white; font-weight: normal;}
+.archives-thumbnail h3 {display: none; position: absolute; bottom: 0; margin: 0;font-size: 15px; line-height: 15px; width: 100%; text-align: center; padding: 10px 0;background: rgba(0, 0, 0, 0.5	); color: white; font-weight: normal;}
 /* ==========================================================================
    Sidebar
    ========================================================================== */
@@ -384,7 +384,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 	.post .entry-meta p.entry-year {font-size: 15px; padding: 0; font-weight: normal;padding-left: 5px; }
 	.post .entry-meta p.entry-comment-number {line-height: 30px; padding-left: 25px;font-size: 15px; top: 0; right: 0; background-size: 30px 30px; height: 30px; width: 30px;}
 	.post .entry-content {float: none; padding-top: 20px;}
-	.post .entry-footer {position: relative; overflow: hidden; }
+	.post .entry-footer {position: relative; overflow: hidden; margin-top: 10px;}
 	.post .entry-footer ul.entry-tags {overflow: hidden;border-top: 1px solid #ddd;}
 	.single  h1 {font-size: 20px;}
 	/*duoshuo*/
