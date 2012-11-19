@@ -439,15 +439,17 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .lt-ie7 .alert { margin: 0 -10px; text-align: center;}
 .lt-ie7 ul.nav { float: right;}
 .lt-ie7 ul.nav li { float: left; line-height: 40px; }
-.lt-ie7 .post {height: 400px;}
+.lt-ie7 .home .post {height: 400px;}
 .lt-ie7 .post .entry-thumbnail { width: 600px; height: 400;}
 .lt-ie7 .post .entry-meta {background: white;}
 
+.lt-ie7 .archives-month {overflow: hidden; float: left; width: 1000px;}
 .lt-ie7 .archives-thumbnail {position: relative;}
-.lt-ie7 .archives-thumbnail img {border: 0;}
-.lt-ie7 .single .post .entry-footer {display: none;}
-.lt-ie7 .single .post .entry-image p {position: relative; margin: 0; padding: 10px 20px;}
+.lt-ie7 .archives-thumbnail img {width: 250px; height: 167px;}
 
+
+.lt-ie7 .single .post .entry-image p {position: relative; margin: 0; padding: 10px 20px;}
+.lt-ie7 .single .post .entry-header .entry-footer {float: left; display: block; position: relative;}
 
 .lt-ie7 .navbar .nav  li  a { float: none;display: block;color: #777;text-decoration: none;padding: 0 15px;}
 .lt-ie7 .navbar .nav  li  a:hover { color: #555;text-decoration: none;}
