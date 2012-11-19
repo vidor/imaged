@@ -29,10 +29,12 @@ Template Name: Archives Template
 
 <script type="text/javascript">
 jQuery(document).ready(function($) {
-	$('.archives-thumbnail a').mouseenter(function() {
-		$(this).find('h3').fadeIn();
-	}).mouseleave(function() {
-		$(this).find('h3').stop().fadeOut();
-	});
+	if( !$('html').hasClass('lt-ie9') ) {
+		$('.archives-thumbnail a').mouseenter(function() {
+			$(this).find('h3').fadeIn();
+		}).mouseleave(function() {
+			$(this).find('h3').stop().fadeOut();
+		});
+	}
 });
 </script>
