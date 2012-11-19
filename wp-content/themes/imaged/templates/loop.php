@@ -1,4 +1,3 @@
-<?php while (have_posts()) : the_post(); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <!-- meta -->
   	<div class="entry-meta">
@@ -19,12 +18,12 @@
   <!-- content -->
     <div class="entry-content">
   	    <header>
-	      <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+	      <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2> 
+        <p class="entry-author"><span>作者：</span><?php the_author_posts_link(); ?></p>
 	    </header>
-	      <?php the_excerpt(); ?>
+	      <?php if( is_archive() && strlen(get_the_excerpt()) > 70) echo mb_substr(get_the_excerpt(), 0, 70, 'utf-8') . '...'; else the_excerpt(); ?>
 	    <footer class="entry-footer">
-	      <?php the_tags('<ul class="entry-tags"><li>','</li><li>','</li></ul>'); ?>
+        <?php the_tags('<ul class="entry-tags"><li>','</li><li>','</li></ul>'); ?>
 	    </footer>
     </div>
 </article>
-  <?php endwhile; ?>

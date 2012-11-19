@@ -12,13 +12,16 @@ function imaged_ajax_loadmore(){
 		
 	$args= array('posts_per_page'=> $posts_per_page ,'offset' => $offset, 'post_status' => 'publish');
 	query_posts($args);			
-	get_template_part('templates/loop');
+
+	while (have_posts()) : the_post();
+	  get_template_part('templates/loop');
+	endwhile; 
   
     exit;
 }
 
 add_action('wp_ajax_imaged_ajax_loadmore', 'imaged_ajax_loadmore'); 
-add_action('wp_ajax_nopriv_imaged_ajax_loadmore', 'imaged_ajax_loadmore');  
+add_action('wp_ajax_nopriv_imaged_ajax_loadmore', 'imaged_ajax_loadmore'); 
 
 
 /*-------------------------------------------------------------------------------------*/

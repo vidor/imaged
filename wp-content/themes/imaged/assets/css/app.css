@@ -79,10 +79,12 @@ form#searchform {margin: 0; text-align: center; margin-top: 50px; display: none;
 
 .post h2 {
 	line-height: 40px;
-	margin: 0 0 20px 0;
+	margin: 0 0 10px 0;
 }
 
 .post h2 a {display: block;}
+
+.post .entry-author {}
 
 .post .entry-meta {
 	float: left;
@@ -145,18 +147,37 @@ form#searchform {margin: 0; text-align: center; margin-top: 50px; display: none;
 	box-shadow:         0 0 3px 3px rgba(0,0,0,0);	
 	background: transparent;	
 	overflow-y: visible;
+	position: relative;
 }
 .single  .entry-header {
 	position: relative;
 	padding: 20px;
 	padding-bottom: 0;
 }
+
+.single .entry-comment-number {
+	position: absolute;
+	background: url(../img/comment.jpg) no-repeat;
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	font-size: 15px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	text-align: center;	
+}
+
+.single .entry-comment-number a {width: 60px; height: 60px; display: block; cursor: pointer;}
 .single  h1 {
 	margin: 0;
 	margin-bottom: 10px;
 	text-align: center;
 	font-size: 31.5px;
 }
+
+.single .post .entry-single-meta {text-align: center;}
 
 .single .post .entry-content {padding: 20px 0; float: none;}
 
@@ -208,7 +229,7 @@ form#searchform {margin: 0; text-align: center; margin-top: 50px; display: none;
  .search  #main h1 {margin: 0;} 
 
 .archive .post h2,
-.search  .post h2 {font-size: 30px; height: 30px; line-height: 30px}
+.search  .post h2 {font-size: 30px; line-height: 30px}
 
 .archive .post .entry-meta p.entry-comment-number,
 .search  .post .entry-meta p.entry-comment-number {bottom: 0;right: 0;}
@@ -236,6 +257,8 @@ form#searchform {margin: 0; text-align: center; margin-top: 50px; display: none;
 .archives-month h2 {background: white; padding: 10px; line-height: 31.5px;margin: 0;}
 .archives-thumbnail {float: left; width: 25%;}
 .archives-thumbnail img {width: 100%;}
+.archives-thumbnail a {display: block; position: relative;}
+.archives-thumbnail h3 {display: none; position: absolute; bottom: 0; margin: 0;font-size: 15px; line-height: 15px; width: 100%; text-align: center; padding: 10px 0;background: rgba(0, 0, 0, 0.5); color: white; font-weight: normal;}
 /* ==========================================================================
    Sidebar
    ========================================================================== */

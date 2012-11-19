@@ -6,21 +6,12 @@
   <?php get_search_form(); ?>
 <?php endif; ?>
 
+<?php 
+while (have_posts()) : the_post(); 
+	if (is_search() && ($post->post_type=='page') ) continue;
+  	else get_template_part('templates/loop');
+endwhile; 
+?>
 
-<?php get_template_part('templates/loop');?>
-
-
-<?php $total_posts = $wp_query->found_posts; ?>
-<div id="load-more">                
-  <a data-total-posts="<?php echo $total_posts ; ?>" data-perpage="<?php echo get_option('posts_per_page');?>">
-     <span id="posts-count"> <?php echo get_option('posts_per_page').'/'. $total_posts; ?></span>                            
-  </a>
-</div>
-
-<?php /* if ($wp_query->max_num_pages > 1) : ?>
-  <nav id="post-nav" class="pager">
-    <div class="previous"><?php next_posts_link(__('&larr; Older posts', 'roots')); ?></div>
-    <div class="next"><?php previous_posts_link(__('Newer posts &rarr;', 'roots')); ?></div>
-  </nav>
-<?php endif; */ ?>
+<?php get_template_part('templates/loadmore');?>
 

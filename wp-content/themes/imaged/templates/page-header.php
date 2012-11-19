@@ -22,7 +22,7 @@
         } elseif (is_author()) {
           global $post;
           $author_id = $post->post_author;
-          printf(__('Author Archives: %s', 'roots'), get_the_author_meta('display_name', $author_id));
+          printf(__('作者: %s', 'roots'), get_the_author_meta('display_name', $author_id));
         } else {
           echo '标签：“'; 
           single_cat_title();

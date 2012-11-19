@@ -19,10 +19,20 @@ Template Name: Archives Template
 
 				<div class="archives-thumbnail">
 				<?php if (has_post_thumbnail())  { ?>			
-					<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail("archives", array('title' => '', 'alt' => '')); ?></a>
+					<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail("archives", array('title' => '', 'alt' => '')); ?><h3><?php the_title();?></h3></a>
 				<?php } ?>
 			  	</div>
 
 			<?php endforeach;wp_reset_postdata();?>
 	</div><!-- /archives-month -->
 <?php   endforeach;  ?>
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	$('.archives-thumbnail a').mouseenter(function() {
+		$(this).find('h3').fadeIn();
+	}).mouseleave(function() {
+		$(this).find('h3').stop().fadeOut();
+	});
+});
+</script>

@@ -1,9 +1,11 @@
 <?php while (have_posts()) : the_post(); ?>
   <article <?php post_class() ?> id="post-<?php the_ID(); ?>">
     <div class="entry-header">
+      <p class="entry-comment-number"><a class="comment-link"><?php comments_number( '0', '1', '%' ); ?></a></p>
       <header>
         <h1 class="entry-title"><?php the_title(); ?></h1>
         <?php //get_template_part('templates/entry-meta'); ?>
+        <p class="entry-single-meta"><span>作者：</span><?php the_author_posts_link(); ?>, <span>日期：</span><?php the_date(); ?></p>
       </header>
       <div class="entry-content">
         <?php the_content(); ?>
@@ -37,3 +39,11 @@
     <?php comments_template('/templates/comments.php'); ?>
   </article>
 <?php endwhile; ?>
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+  $('.comment-link').click(function() {
+    $("html, body").stop().animate({ scrollTop: $('.ds-thread').offset().top }, 1000, 'easeOutExpo');
+  });
+});
+</script>

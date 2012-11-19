@@ -16,7 +16,8 @@
     <div id="content" class="row">
       <?php get_search_form(); ?>
       <div id="main" class="<?php echo roots_main_class(); ?>" role="main">
-        <?php include roots_template_path(); ?>
+        <?php //echo roots_template_path(); 
+          include roots_template_path(); ?>
       </div>
       <?php /*if (roots_display_sidebar()) : 
       <aside id="sidebar" class="<?php echo roots_sidebar_class(); ?>" role="complementary">
