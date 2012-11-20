@@ -23,7 +23,7 @@ body {padding: 0 10px;}
 
 #banner {}
 
-#banner a.brand { text-indent: -1000px; background: url(../img/logo.jpg) no-repeat left center; background-size: 72px 40px; margin: 0; width: 72px;}
+#banner a.brand { text-indent: -1000px; background: url(../img/logo-nav.png) no-repeat left center; background-size: 124px 40px; margin: 0; width: 124px;}
 
 .navbar-inner {filter: 0;}
 
@@ -63,7 +63,7 @@ form#searchform {margin: 0; text-align: center; margin-top: 50px; display: none;
    Primary Content
    ========================================================================== */
 #main { padding-top: 60px; }
-#main .page-header { margin: 30px 0; padding: 0; text-align: center; }
+#main .page-header { margin: 0; padding: 0; text-align: center; }
 /* ==========================================================================
    Post Base
    ========================================================================== */

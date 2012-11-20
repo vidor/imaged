@@ -30,7 +30,9 @@
         }
       } elseif (is_search()) {
         printf(__('搜索: “%s”', 'roots'), get_search_query());
-      } elseif (is_404()) {
+      } elseif (is_page('author')) {
+          echo '所有作者';
+      }elseif (is_404()) {
         _e('File Not Found', 'roots');
       } else {
         the_title();

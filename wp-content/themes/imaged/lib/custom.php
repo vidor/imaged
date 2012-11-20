@@ -34,4 +34,17 @@ function get_posts_archives() {
 	}
 	$rawposts = null; 
 	return $posts;			
-}		
+}
+/*-------------------------------------------------------------------------------------*/
+/*	Add meta to user
+/*--------------------------------------------------------------------------------------*/
+
+function extra_contact_info($contactmethods) {
+	 unset($contactmethods['aim']);
+	 unset($contactmethods['yim']);
+	 unset($contactmethods['jabber']);
+	 $contactmethods['weibo'] = '微博';
+	 $contactmethods['imaged_url'] = '本站地址';
+	 return $contactmethods;
+ }
+ add_filter('user_contactmethods', 'extra_contact_info');
