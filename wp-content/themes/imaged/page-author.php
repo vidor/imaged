@@ -6,7 +6,7 @@ Template Name: author Template
 <?php get_template_part('templates/page', 'header'); ?>
 
 
-<?php  $args = array( 'orderby' => 'display_name', 'order' => 'ASC', 'who' => 'authors' ); $authors = get_users( $args ); ?>
+<?php  $args = array( 'orderby' => 'display_name', 'order' => 'ASC', 'role' => 'editor' ); $authors = get_users( $args ); ?>
 
 <?php foreach ( $authors as $author ) { ?>
 	<?php $args = array( 'author' => $author->ID, 'posts_per_page' => -1); $posts = query_posts( $args ); ?>
