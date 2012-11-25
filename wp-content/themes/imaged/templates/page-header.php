@@ -24,9 +24,8 @@
           $author_id = $post->post_author;
           printf(__('作者: %s', 'roots'), get_the_author_meta('display_name', $author_id));
         } else {
-          echo '标签：“'; 
+          echo '标签 / '; 
           single_cat_title();
-          echo '”';
         }
       } elseif (is_search()) {
         printf(__('搜索: “%s”', 'roots'), get_search_query());

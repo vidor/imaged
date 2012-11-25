@@ -28,10 +28,10 @@
      if ( $attachments ) {
         foreach ( $attachments as $attachment ) {
            echo '<div class="entry-image">';
-           echo wp_get_attachment_image( $attachment->ID, 'single-post' );
-           echo '<p>';
-           echo apply_filters( 'the_title', $attachment->post_title );
-           echo '</p></div>';
+             echo '<img src="' . wp_get_attachment_image_src( $attachment->ID, 'single-post')[0] . '" />';
+             $img_desc = $attachment->post_content;
+             if( $img_desc != null || $img_desc != '' ) echo '<p>' . $img_desc . '</p>';
+           echo '</div>';
           }
      }
 

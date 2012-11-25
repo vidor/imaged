@@ -62,8 +62,10 @@ form#searchform {margin: 0; text-align: center; margin-top: 50px; display: none;
 /* ==========================================================================
    Primary Content
    ========================================================================== */
-.home #main { padding-top: 60px; }
+ { padding-top: 60px; }
 #main .page-header { margin: 20px; padding: 0; text-align: center; }
+.home #main,
+.single #main,
 .page-template-template-archives-php #main,
 .page-template-page-about-php #main {padding-top: 60px;}
 /* ==========================================================================
@@ -216,7 +218,7 @@ form#searchform {margin: 0; text-align: center; margin-top: 50px; display: none;
 }
 
 #load-more a {cursor: pointer; display: block; padding: 15px; text-align: right;background: url(../img/load-more.png) no-repeat center center; background-size: 25px 25px;}
-#load-more a span {font-size: 20px; color: black;}
+#load-more a span {font-size: 20px; color: black; padding-right: 15px;}
 
 #load-more a.active {background: url(../img/loader.gif) no-repeat center center; background-size: 25px 25px;}
 
@@ -327,7 +329,9 @@ form#searchform {margin: 0; text-align: center; margin-top: 50px; display: none;
 	padding: 30px;	
 	margin-bottom: 50px;
 }
-#about-me h1 { text-align: center; font-size: 31.5px;}
+#about-me h1 { text-align: center; font-size: 31.5px; margin: 0 0 50px 0;}
+
+#about-me p {text-align: center;}
 
 /* ==========================================================================
    WordPress Generated Classes
@@ -393,7 +397,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     .archive .post .entry-meta p.entry-year,
     .search  .post .entry-meta p.entry-year{position: relative;}
 
-	#banner a.brand {float: none; width: 72px; margin: 0 auto; background-position: center center;}
+	#banner a.brand {float: none; width: 214px; margin: 0 auto; background-position: center center;}
 	.navbar .nav {float: none; }
 
 	.navbar .nav  li  a {text-align: center;}
@@ -444,17 +448,30 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* ==========================================================================
    IE
    ========================================================================== */
-.lt-ie9 .container, .lt-ie9 #main{width: 1000px;}
+/* border bottom for lt ie 9*/
+.lt-ie9 .post,
+.lt-ie9 #load-more a,
+.lt-ie9 .single .entry-header,
+.lt-ie9 .single .entry-image,
+.lt-ie9 .author-list,
+.lt-ie9 .ds-thread,
+.lt-ie9 #about-me {
+	border-bottom: 1px solid #d4d4d4;
+}
+
+.lt-ie9 .single .post {border: none;}
+
+.lt-ie9 .container, .lt-ie9 #main {width: 1000px;}
 .lt-ie9 .home .post div.entry-content {width: 300px;}
 
-.lt-ie9 #banner a.brand {width: 72px; background: url(../img/logo-lt-ie9.png) no-repeat left center;}
-.lt-ie9 #nav-icon a {background: url(../img/SearchAndRSS-lt-ie9.png) no-repeat top center;}
+.ie #banner a.brand {width: 141px; background: url(../img/logo-nav-lt-ie9.png) no-repeat left center;}
+.ie #nav-icon a {background: url(../img/SearchAndRSS-lt-ie9.png) no-repeat top center;}
 .lt-ie9 .archive .post div.entry-content,
 .lt-ie9 .search  .post div.entry-content {width: 600px;}
 .lt-ie9 .archive .post .entry-thumbnail,
 .lt-ie9 .search  .post .entry-thumbnail {width: 300px;}
 .lt-ie9 #load-more a {float:left; width: 1000px; padding: 15px 0; cursor: pointer; background: white url(../img/load-more-lt-ie9.png) no-repeat center center;}
-.lt-ie9 #load-more a.active {background: white url(../img/loader-lt-ie9.gif) no-repeat center center;}
+.it-ie9 #load-more a.active {background: white url(../img/loader-lt-ie9.gif) no-repeat center center;}
 .lt-ie9 #load-more a span { padding-right: 15px;}
 
 .lt-ie7 .top-navbar { padding-top: 0px;}
