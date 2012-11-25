@@ -27,9 +27,11 @@
   $attachments = get_posts( $args );
      if ( $attachments ) {
         foreach ( $attachments as $attachment ) {
+          $img_desc = $attachment->post_content; $img_src = wp_get_attachment_image_src( $attachment->ID, 'single-post');
+
            echo '<div class="entry-image">';
-             echo '<img src="' . wp_get_attachment_image_src( $attachment->ID, 'single-post')[0] . '" />';
-             $img_desc = $attachment->post_content;
+             echo '<img src="' . $img_src[0] . '" />';
+             
              if( $img_desc != null || $img_desc != '' ) echo '<p>' . $img_desc . '</p>';
            echo '</div>';
           }
