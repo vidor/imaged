@@ -62,8 +62,10 @@ form#searchform {margin: 0; text-align: center; margin-top: 50px; display: none;
 /* ==========================================================================
    Primary Content
    ========================================================================== */
-#main { padding-top: 60px; }
-#main .page-header { margin: 0; padding: 0; text-align: center; }
+.home #main { padding-top: 60px; }
+#main .page-header { margin: 20px; padding: 0; text-align: center; }
+.page-template-template-archives-php #main,
+.page-template-page-about-php #main {padding-top: 60px;}
 /* ==========================================================================
    Post Base
    ========================================================================== */
@@ -294,6 +296,27 @@ form#searchform {margin: 0; text-align: center; margin-top: 50px; display: none;
 
 
 /* ==========================================================================
+	Author list
+   ========================================================================== */
+.author-list {
+	background: white;
+	margin-bottom: 50px;
+	padding: 20px;
+	overflow-y: hidden;
+	position: relative;
+	-webkit-box-shadow: 0 0 3px 3px rgba(0,0,0,0.07);
+	-moz-box-shadow:    0 0 3px 3px rgba(0,0,0,0.07);
+	box-shadow:         0 0 3px 3px rgba(0,0,0,0.07);	
+}
+
+.author-list img {margin-right: 20px;}
+
+.author-list h2 {margin: 0 0 20px 0; padding-bottom: 20px; font-size: 20px; border-bottom: 1px solid #ddd;}
+
+.author-list h2 a {
+	float: right;
+}
+/* ==========================================================================
 	About Me
    ========================================================================== */
 #about-me {
@@ -370,7 +393,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     .archive .post .entry-meta p.entry-year,
     .search  .post .entry-meta p.entry-year{position: relative;}
 
-	.home .page-header {display: none;}
 	#banner a.brand {float: none; width: 72px; margin: 0 auto; background-position: center center;}
 	.navbar .nav {float: none; }
 
