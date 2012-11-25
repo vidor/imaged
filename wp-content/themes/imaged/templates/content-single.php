@@ -27,7 +27,7 @@
 
   $attachments = get_posts( $args );
      if ( $attachments ) {
-      usort($attachments, 'cmp')
+        usort($attachments, 'cmp');
         foreach ( $attachments as $attachment ) {
           $img_desc = $attachment->post_content; $img_src = wp_get_attachment_image_src( $attachment->ID, 'single-post');
 
