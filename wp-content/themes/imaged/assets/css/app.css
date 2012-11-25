@@ -2,7 +2,7 @@
    Base
    ========================================================================== */
 
-body {background: #efefef;font-family: "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;}
+body {background: #efefef url(../img/body.png);font-family: "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;}
 
 a { color: #2b8dc0; }
 
