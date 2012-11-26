@@ -17,7 +17,7 @@ Template Name: author Template
 	?>
 
 	<div class="author-list">
-    <h2><?php echo get_avatar($author->ID, 40); ?><?php echo $author->user_nicename; ?><a href="<?php echo $imaged_url ?>"><?php echo count($posts);?>篇</a></h2>
+    <h2><?php echo get_avatar($author->ID, 40); ?><?php echo $author->display_name; ?><a href="<?php echo $imaged_url ?>"><?php echo count($posts);?>篇</a></h2>
     <section>
     	<?php if( $desc ) : ?><p><span>简介：</span><?php echo $desc ?></p><?php endif; ?>
     	<?php if( $imaged_url ) : ?><p><span>作者页面：</span><a href="<?php echo $imaged_url ?>"><?php echo $imaged_url ?></a></p><?php endif; ?>
