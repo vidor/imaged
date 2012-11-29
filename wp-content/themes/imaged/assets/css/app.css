@@ -296,7 +296,7 @@ form#searchform {margin: 0; text-align: center; margin-top: 50px; display: none;
 	text-shadow: 0 1px 0 #fff;
 }
 
-#content-info p#login {padding: 0; margin: 0;}
+#content-info p#login {padding: 0; margin: 0; margin-bottom: 10px;}
 
 
 /* ==========================================================================
