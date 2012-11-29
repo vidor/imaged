@@ -1,7 +1,7 @@
 <footer id="content-info" class="container" role="contentinfo">
   <?php dynamic_sidebar('sidebar-footer'); ?>
   <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></p>
-  <p><a href="http://imaged.me/wp-admin/">登录</a></p>
+  <p id="login"><a href="http://imaged.me/wp-admin/">登录</a></p>
 </footer>
 
 <?php if (GOOGLE_ANALYTICS_ID) : ?>
