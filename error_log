@@ -1,0 +1,56 @@
+[20-Nov-2012 15:57:51] PHP Fatal error:  Uncaught exception 'Duoshuo_Exception' with message 'couldn't connect to host' in /home5/vidorme/public_html/imaged/wp-content/plugins/duoshuo/Client.php:90
+Stack trace:
+#0 /home5/vidorme/public_html/imaged/wp-content/plugins/duoshuo/Client.php(47): Duoshuo_Client->httpRequest('http://api.duos...', 'GET', Array)
+#1 /home5/vidorme/public_html/imaged/wp-content/plugins/duoshuo/Abstract.php(69): Duoshuo_Client->request('GET', 'log/list', Array)
+#2 /home5/vidorme/public_html/imaged/wp-includes/plugin.php(484): Duoshuo_Abstract->syncLog()
+#3 /home5/vidorme/public_html/imaged/wp-cron.php(92): do_action_ref_array(Array, Array)
+#4 {main}
+  thrown in /home5/vidorme/public_html/imaged/wp-content/plugins/duoshuo/Client.php on line 90
+[21-Nov-2012 16:48:26] PHP Fatal error:  Uncaught exception 'Duoshuo_Exception' in /home5/vidorme/public_html/imaged/wp-content/plugins/duoshuo/Abstract.php:72
+Stack trace:
+#0 /home5/vidorme/public_html/imaged/wp-includes/plugin.php(484): Duoshuo_Abstract->syncLog()
+#1 /home5/vidorme/public_html/imaged/wp-cron.php(92): do_action_ref_array(Array, Array)
+#2 {main}
+  thrown in /home5/vidorme/public_html/imaged/wp-content/plugins/duoshuo/Abstract.php on line 72
+[22-Nov-2012 02:33:15] PHP Fatal error:  Uncaught exception 'Duoshuo_Exception' in /home5/vidorme/public_html/imaged/wp-content/plugins/duoshuo/Abstract.php:75
+Stack trace:
+#0 /home5/vidorme/public_html/imaged/wp-includes/plugin.php(484): Duoshuo_Abstract->syncLog()
+#1 /home5/vidorme/public_html/imaged/wp-cron.php(92): do_action_ref_array(Array, Array)
+#2 {main}
+  thrown in /home5/vidorme/public_html/imaged/wp-content/plugins/duoshuo/Abstract.php on line 75
+[25-Nov-2012 15:01:00] PHP Warning:  Invalid argument supplied for foreach() in /home5/vidorme/public_html/imaged/wp-content/themes/imaged/page-archives.php on line 10
+[25-Nov-2012 15:01:02] PHP Warning:  Invalid argument supplied for foreach() in /home5/vidorme/public_html/imaged/wp-content/themes/imaged/page-archives.php on line 10
+[25-Nov-2012 15:12:08] PHP Warning:  Invalid argument supplied for foreach() in /home5/vidorme/public_html/imaged/wp-content/themes/imaged/page-archives.php on line 10
+[25-Nov-2012 16:45:54] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home5/vidorme/public_html/imaged/wp-content/themes/imaged/templates/content-single.php on line 31
+[25-Nov-2012 16:45:58] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home5/vidorme/public_html/imaged/wp-content/themes/imaged/templates/content-single.php on line 31
+[25-Nov-2012 16:46:35] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home5/vidorme/public_html/imaged/wp-content/themes/imaged/templates/content-single.php on line 31
+[25-Nov-2012 16:46:59] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home5/vidorme/public_html/imaged/wp-content/themes/imaged/templates/content-single.php on line 31
+[25-Nov-2012 16:48:27] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home5/vidorme/public_html/imaged/wp-content/themes/imaged/templates/content-single.php on line 31
+[25-Nov-2012 17:06:49] PHP Parse error:  syntax error, unexpected T_FOREACH in /home5/vidorme/public_html/imaged/wp-content/themes/imaged/templates/content-single.php on line 31
+[06-Dec-2012 09:30:59] PHP Fatal error:  Uncaught exception 'Duoshuo_Exception' in /home5/vidorme/public_html/imaged/wp-content/plugins/duoshuo/Abstract.php:72
+Stack trace:
+#0 /home5/vidorme/public_html/imaged/wp-includes/plugin.php(484): Duoshuo_Abstract->syncLog()
+#1 /home5/vidorme/public_html/imaged/wp-cron.php(92): do_action_ref_array(Array, Array)
+#2 {main}
+  thrown in /home5/vidorme/public_html/imaged/wp-content/plugins/duoshuo/Abstract.php on line 72
+[07-Dec-2012 07:33:53] PHP Fatal error:  Uncaught exception 'Duoshuo_Exception' with message '<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+' in /home5/vidorme/public_html/imaged/wp-content/plugins/duoshuo/Abstract.php:72
+Stack trace:
+#0 /home5/vidorme/public_html/imaged/wp-includes/plugin.php(484): Duoshuo_Abstract->syncLog()
+#1 /home5/vidorme/public_html/imaged/wp-cron.php(92): do_action_ref_array(Array, Array)
+#2 {main}
+  thrown in /home5/vidorme/public_html/imaged/wp-content/plugins/duoshuo/Abstract.php on line 72
+[10-Dec-2012 19:37:38] PHP Fatal error:  Uncaught exception 'Duoshuo_Exception' with message 'couldn't connect to host' in /home5/vidorme/public_html/imaged/wp-content/plugins/duoshuo/Client.php:90
+Stack trace:
+#0 /home5/vidorme/public_html/imaged/wp-content/plugins/duoshuo/Client.php(47): Duoshuo_Client->httpRequest('http://api.duos...', 'GET', Array)
+#1 /home5/vidorme/public_html/imaged/wp-content/plugins/duoshuo/Abstract.php(69): Duoshuo_Client->request('GET', 'log/list', Array)
+#2 /home5/vidorme/public_html/imaged/wp-includes/plugin.php(484): Duoshuo_Abstract->syncLog()
+#3 /home5/vidorme/public_html/imaged/wp-cron.php(92): do_action_ref_array(Array, Array)
+#4 {main}
+  thrown in /home5/vidorme/public_html/imaged/wp-content/plugins/duoshuo/Client.php on line 90
