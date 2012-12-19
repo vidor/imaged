@@ -41,8 +41,13 @@
 
 ?>
 
-    <?php comments_template('/templates/comments.php'); ?>
+    
   </article>
+
+<?php comments_template('/templates/comments.php'); ?>
+
+
+
 <?php endwhile; ?>
 
 <script type="text/javascript">
