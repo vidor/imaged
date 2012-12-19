@@ -54,3 +54,9 @@ Stack trace:
 #3 /home5/vidorme/public_html/imaged/wp-cron.php(92): do_action_ref_array(Array, Array)
 #4 {main}
   thrown in /home5/vidorme/public_html/imaged/wp-content/plugins/duoshuo/Client.php on line 90
+[18-Dec-2012 01:05:27] PHP Fatal error:  Uncaught exception 'Duoshuo_Exception' in /home5/vidorme/public_html/imaged/wp-content/plugins/duoshuo/Abstract.php:72
+Stack trace:
+#0 /home5/vidorme/public_html/imaged/wp-includes/plugin.php(487): Duoshuo_Abstract->syncLog()
+#1 /home5/vidorme/public_html/imaged/wp-cron.php(92): do_action_ref_array(Array, Array)
+#2 {main}
+  thrown in /home5/vidorme/public_html/imaged/wp-content/plugins/duoshuo/Abstract.php on line 72
