@@ -1,6 +1,6 @@
 <footer id="content-info" class="container" role="contentinfo">
   <?php dynamic_sidebar('sidebar-footer'); ?>
-  <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></p>
+  <p>&copy; <?php echo date('Y'); ?> By <a href="http://lyfeway.com">Lyfeway Lin</a></p>
   <p id="login"><a href="http://imaged.me/wp-admin/">登录</a></p>
 </footer>
 
