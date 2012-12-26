@@ -60,3 +60,5 @@ Stack trace:
 #1 /home5/vidorme/public_html/imaged/wp-cron.php(92): do_action_ref_array(Array, Array)
 #2 {main}
   thrown in /home5/vidorme/public_html/imaged/wp-content/plugins/duoshuo/Abstract.php on line 72
+[26-Dec-2012 06:57:18] PHP Fatal error:  Call to undefined function  of_get_option() in /home5/vidorme/public_html/imaged/wp-content/themes/Winter/sponsors.php on line 8
+[26-Dec-2012 06:57:43] PHP Fatal error:  Call to undefined function  of_get_option() in /home5/vidorme/public_html/imaged/wp-content/themes/Winter/sponsors.php on line 8
