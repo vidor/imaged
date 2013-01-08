@@ -1,4 +1,4 @@
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('post'); ?>>
   <!-- meta -->
   	<div class="entry-meta">
   		 <p class="entry-month"><?php echo get_the_date('m'); ?></p>
